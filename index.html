@@ -1,14 +1,711 @@
 <!DOCTYPE html>
 <html lang="bg">
 <head>
-    <meta charset="UTF-8">
-    <title>Бланки.БГ</title>
+    <meta charset="utf-8">
+    <title>бланки.бг</title>
+    <style>
+        body {
+            background: #fff;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .google-logo {
+            font-family: 'Product Sans', Arial, sans-serif;
+            font-size: 3.2em;
+            font-weight: bold;
+            letter-spacing: -2px;
+            margin-top: 60px;
+            margin-bottom: 30px;
+            text-align: center;
+            user-select: none;
+        }
+        .google-logo .g { color: #4285F4; }
+        .google-logo .b { color: #EA4335; }
+        .google-logo .l { color: #FBBC05; }
+        .google-logo .a { color: #34A853; }
+        .google-logo .n { color: #EA4335; }
+        .google-logo .k { color: #4285F4; }
+        .google-logo .i { color: #FBBC05; }
+        .google-logo .dot { color: #34A853; }
+        .google-logo .bg { color: #EA4335; }
+        .search-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 0;
+        }
+        #search, #search-results {
+            width: 45em;
+            max-width: 98vw;
+            min-width: 340px;
+            padding: 20px 28px;
+            font-size: 1.15em;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            outline: none;
+            box-shadow: 0 2px 6px rgba(60,64,67,.08);
+            margin-bottom: 30px;
+            transition: box-shadow 0.2s;
+            box-sizing: border-box;
+            height: 56px;
+            line-height: 1;
+        }
+        #search:focus, #search-results:focus {
+            box-shadow: 0 2px 8px rgba(60,64,67,.18);
+            border-color: #4285F4;
+        }
+        .main-flex {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+        .results-col {
+            flex: 2 1 0;
+            max-width: 66.66%;
+            min-width: 0;
+        }
+        .side-col {
+            flex: 1 1 0;
+            max-width: 33.33%;
+            min-width: 240px;
+            margin: 30px auto 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: center;
+        }
+        ul#results {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul#results li {
+            /* Remove box, shadow, border, radius, and background */
+            background: none;
+            margin-bottom: 0;
+            padding: 18px 0 14px 0;
+            border-radius: 0;
+            box-shadow: none;
+            border: none;
+            border-bottom: 1px solid #d2e3fc; /* Google light blue */
+            position: relative;
+            transition: background 0.15s;
+        }
+        ul#results li:last-child {
+            border-bottom: none;
+        }
+        ul#results li:hover {
+            background: #f8f9fa;
+            box-shadow: none;
+            border-bottom: 1px solid #bfc1c4;
+        }
+        .g-result-title {
+            font-size: 18px;           /* Set result title font size to 18px */
+            color: #202124;
+            font-weight: 400;           /* Not bold */
+            display: block;
+            margin-bottom: 2px;
+            line-height: 1.35;
+            font-family: Arial, sans-serif;
+            letter-spacing: 0.01em;
+            text-decoration: none;      /* No underline */
+            transition: none;
+        }
+        .g-result-title:hover {
+            text-decoration: none;      /* No underline on hover */
+        }
+        .g-result-snippet {
+            color: #202124;
+            font-size: 13px;
+            margin-bottom: 6px;
+            line-height: 1.58;
+            font-family: Roboto,Arial,sans-serif;
+            word-break: break-all;
+        }
+        .g-filetype-badge {
+            display: inline-block;
+            background: #f8f9fa;
+            color: #5f6368;
+            border: 1px solid #dadce0;
+            border-radius: 4px;
+            font-size: 12px;
+            font-family: Roboto, Arial, sans-serif;
+            font-weight: 500;
+            padding: 1px 8px;
+            margin-right: 10px;
+            vertical-align: middle;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+        }
+        .g-filetype-badge:hover {
+            background: #d2e3fc;
+            color: #174ea6;
+        }
+        .side-col {
+            width: 100%;
+            max-width: 700px;
+            min-width: 340px;
+            margin: 30px auto 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: center;
+        }
+        .sidebox {
+            background: #f1f3f4;
+            border-radius: 8px;
+            padding: 10px 18px;
+            font-size: 1em;
+            color: #444;
+            max-width: 100%;
+            overflow: hidden;
+            word-break: break-word;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .sidebox-title {
+            font-weight: bold;
+            color: #4285F4;
+            margin-bottom: 4px;
+            font-size: 1em;
+        }
+        #last-searches, #last-searches-results {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            max-width: 100%;
+        }
+        #last-searches span, #last-searches-results span {
+            background: #fff;
+            border-radius: 12px;
+            padding: 3px 10px;
+            font-size: 0.97em;
+            color: #333;
+            max-width: 90%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            border: 1px solid #e0e0e0;
+        }
+        #last-downloads, #last-downloads-results {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            max-width: 100%;
+        }
+        #last-downloads a, #last-downloads-results a {
+            color: #1a0dab;
+            text-decoration: none;
+            font-size: 0.97em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: inline-block;
+            max-width: 100%;
+        }
+        #last-downloads a:hover, #last-downloads-results a:hover {
+            text-decoration: underline;
+        }
+        .centered-home {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+        }
+        .hide {
+            display: none !important;
+        }
+        .results-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 24px;
+            margin-top: 20px;
+            min-height: 64px;
+        }
+        .results-header .google-logo {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            height: 56px;
+            font-size: 2.3em;
+            line-height: 1;
+        }
+        .results-header .google-logo a {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        .results-header .search-container {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            height: 56px;
+        }
+        .results-count {
+            color: #70757a;
+            font-size: 0.98em;
+            margin-bottom: 18px;
+            margin-left: 8px;
+        }
+        .search-box {
+            position: relative;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .search-box input[type="text"] {
+            width: 100%;
+            padding-right: 48px;
+            border: none;
+            outline: none;
+            font-size: 1.15em;
+            background: none;
+            height: 56px;
+            line-height: 1.15em;
+            box-sizing: border-box;
+            display: block;
+        }
+        .search-btn {
+            position: absolute;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background 0.2s;
+        }
+        .search-btn:hover, .search-btn:focus {
+            background: #f2f2f2;
+        }
+        @media (max-width: 1100px) {
+            .main-flex {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0;
+            }
+            .results-col, .side-col {
+                max-width: 100%;
+                width: 100%;
+            }
+            .side-col {
+                flex-direction: row;
+                gap: 24px;
+                margin-top: 30px;
+            }
+        }
+        @media (max-width: 700px) {
+            .results-col { max-width: 100vw; }
+            #search, #search-results { max-width: 98vw; }
+            .side-col { flex-direction: column; gap: 18px; }
+            .results-header { flex-direction: column; gap: 10px; }
+        }
+        @media (max-width: 600px) {
+            .google-logo { font-size: 2em; margin-top: 30px; }
+            #search, #search-results { font-size: 1em; padding: 12px 10px; }
+            ul#results li { font-size: 13px; }
+            .g-result-title { font-size: 17px; }
+            .sidebox { padding: 8px 6px; }
+        }
+        .g-org-folder {
+            color: #4285F4; /* Google Blue */
+            font-size: 13px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Product+Sans:400,700|Roboto:400,500&display=swap" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Бланки.БГ</h1>
-    <hr>
-    <footer>
-        &copy; 2025
-    </footer>
+    <div id="home-view" class="centered-home">
+        <div class="google-logo">
+            <a href="/" style="text-decoration:none; color:inherit;">
+                <span class="g">б</span><span class="b">л</span><span class="l">а</span><span class="a">н</span><span class="n">к</span><span class="k">и</span><span class="dot">.</span><span class="bg">бг</span>
+            </a>
+        </div>
+        <!-- Home search field -->
+<div class="search-container">
+    <div class="search-box">
+        <input type="text" id="search" placeholder="Търсене на бланки, образци, формуляри и други..." autocomplete="off">
+        <button id="search-btn" class="search-btn" type="button" title="Търсене" aria-label="Търсене"></button>
+    </div>
+</div>
+        <div class="side-col" style="margin-top:30px;">
+            <div class="sidebox" id="last-searches-box">
+                <div class="sidebox-title">Последно търсени</div>
+                <div id="last-searches"></div>
+            </div>
+            <div class="sidebox" id="last-downloads-box">
+                <div class="sidebox-title">Последни сваляния</div>
+                <div id="last-downloads"></div>
+            </div>
+        </div>
+    </div>
+    <div id="results-view" class="hide">
+        <div class="results-header">
+            <div class="google-logo">
+                <a href="/" style="text-decoration:none; color:inherit;">
+                    <span class="g">б</span><span class="b">л</span><span class="l">а</span><span class="a">н</span><span class="n">к</span><span class="k">и</span><span class="dot">.</span><span class="bg">бг</span>
+                </a>
+            </div>
+            <!-- Results search field -->
+<div class="search-container">
+    <div class="search-box">
+        <input type="text" id="search-results" placeholder="Търсене на бланки, образци, формуляри и други..." autocomplete="off">
+        <button id="search-results-btn" class="search-btn" tabindex="-1" aria-label="Търси"></button>
+    </div>
+</div>
+        </div>
+        <div class="main-flex">
+            <div class="results-col">
+                <div class="results-count" id="results-count"></div>
+                <ul id="results"></ul>
+            </div>
+            <div class="side-col">
+                <div class="sidebox" id="last-searches-box-results">
+                    <div class="sidebox-title">Последно търсени</div>
+                    <div id="last-searches-results"></div>
+                </div>
+                <div class="sidebox" id="last-downloads-box-results">
+                    <div class="sidebox-title">Последни сваляния</div>
+                    <div id="last-downloads-results"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    const jsonFile = "blanki_index.json";
+    let files = [];
+    let lastSearches = [];
+    let lastDownloads = [];
+    let searchSubmitted = false;
+
+    function saveToLocalStorage(key, arr, maxLen=10) {
+        arr = arr.slice(0, maxLen);
+        localStorage.setItem(key, JSON.stringify(arr));
+    }
+
+    function loadFromLocalStorage(key) {
+        try {
+            let arr = JSON.parse(localStorage.getItem(key));
+            if (Array.isArray(arr)) return arr;
+        } catch(e) {}
+        return [];
+    }
+
+    function updateSidebox(id, arr) {
+        // Remove duplicates for 'Последно търсени'
+        let uniqueArr = arr;
+        if (id.startsWith("last-searches")) {
+            uniqueArr = [...new Set(arr.map(x => x.trim().toLowerCase()))]
+                .map(val => arr.find(x => x.trim().toLowerCase() === val));
+        }
+        // Home page
+        let box = document.getElementById(id + "-box");
+        let div = document.getElementById(id);
+        if (box && div) {
+            if (id.startsWith("last-searches")) {
+                if (uniqueArr.length > 0) {
+                    box.style.display = "";
+                    div.innerHTML = uniqueArr.map(x =>
+                        `<a href="#" class="last-search-link" title="${x}" style="background:#fff;border-radius:12px;padding:3px 10px;font-size:0.97em;color:#333;max-width:90%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border:1px solid #e0e0e0;display:inline-block;margin-right:6px;margin-bottom:4px;text-decoration:none;">${x}</a>`
+                    ).join("");
+                    div.querySelectorAll('.last-search-link').forEach(link => {
+                        link.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            const searchValue = this.textContent;
+                            if (document.getElementById("home-view") && !document.getElementById("home-view").classList.contains("hide")) {
+                                document.getElementById("home-view").classList.add("hide");
+                                document.getElementById("results-view").classList.remove("hide");
+                                document.getElementById("search-results").value = searchValue;
+                                doSearch(searchValue, true);
+                                document.getElementById("search-results").focus();
+                            } else if (document.getElementById("search-results")) {
+                                document.getElementById("search-results").value = searchValue;
+                                doSearch(searchValue, true);
+                                document.getElementById("search-results").focus();
+                            }
+                        });
+                    });
+                } else {
+                    box.style.display = "none";
+                    div.innerHTML = "";
+                }
+            } else if (id.startsWith("last-downloads")) {
+                if (arr.length > 0) {
+                    box.style.display = "";
+                    div.innerHTML = arr.map(obj => {
+                        if (typeof obj === "object" && obj && obj.path && obj.title) {
+                            return `<a href="${encodeURI(obj.path)}" download="${obj.filename || obj.title}" title="${obj.title}" style="display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${obj.title}</a>`;
+                        } else if (typeof obj === "string") {
+                            let found = files.find(f => humanizeFilename(f.filename) === obj || f.filename === obj);
+                            if (found) {
+                                return `<a href="${encodeURI(found.path)}" download="${found.filename}" title="${obj}" style="display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${humanizeFilename(found.filename)}</a>`;
+                            } else {
+                                return `<span>${obj}</span>`;
+                            }
+                        }
+                    }).join("");
+                } else {
+                    box.style.display = "none";
+                    div.innerHTML = "";
+                }
+            }
+        }
+        // Results page
+        box = document.getElementById(id + "-box-results");
+        div = document.getElementById(id + "-results");
+        if (box && div) {
+            if (id.startsWith("last-searches")) {
+                if (uniqueArr.length > 0) {
+                    box.style.display = "";
+                    div.innerHTML = uniqueArr.map(x =>
+                        `<a href="#" class="last-search-link" title="${x}" style="background:#fff;border-radius:12px;padding:3px 10px;font-size:0.97em;color:#333;max-width:90%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border:1px solid #e0e0e0;display:inline-block;margin-right:6px;margin-bottom:4px;text-decoration:none;">${x}</a>`
+                    ).join("");
+                    div.querySelectorAll('.last-search-link').forEach(link => {
+                        link.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            const searchValue = this.textContent;
+                            if (document.getElementById("home-view") && !document.getElementById("home-view").classList.contains("hide")) {
+                                document.getElementById("home-view").classList.add("hide");
+                                document.getElementById("results-view").classList.remove("hide");
+                                document.getElementById("search-results").value = searchValue;
+                                doSearch(searchValue, true);
+                                document.getElementById("search-results").focus();
+                            } else if (document.getElementById("search-results")) {
+                                document.getElementById("search-results").value = searchValue;
+                                doSearch(searchValue, true);
+                                document.getElementById("search-results").focus();
+                            }
+                        });
+                    });
+                } else {
+                    box.style.display = "none";
+                    div.innerHTML = "";
+                }
+            } else if (id.startsWith("last-downloads")) {
+                if (arr.length > 0) {
+                    box.style.display = "";
+                    div.innerHTML = arr.map(obj => {
+                        if (typeof obj === "object" && obj && obj.path && obj.title) {
+                            return `<a href="${encodeURI(obj.path)}" download="${obj.filename || obj.title}" title="${obj.title}" style="display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${obj.title}</a>`;
+                        } else if (typeof obj === "string") {
+                            let found = files.find(f => humanizeFilename(f.filename) === obj || f.filename === obj);
+                            if (found) {
+                                return `<a href="${encodeURI(found.path)}" download="${found.filename}" title="${obj}" style="display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${humanizeFilename(found.filename)}</a>`;
+                            } else {
+                                return `<span>${obj}</span>`;
+                            }
+                        }
+                    }).join("");
+                } else {
+                    box.style.display = "none";
+                    div.innerHTML = "";
+                }
+            }
+        }
+    }
+
+    function humanizeFilename(name) {
+        let base = name.replace(/\.[^.]+$/, "");
+        base = base.replace(/[_-]+/g, " ");
+        base = base.replace(/\s+/g, " ").trim();
+        return base.charAt(0).toUpperCase() + base.slice(1);
+    }
+
+    function renderResults(list) {
+        const ul = document.getElementById("results");
+        ul.innerHTML = "";
+        const countDiv = document.getElementById("results-count");
+        if (!list || list.length === 0) {
+            ul.innerHTML = "<li>Няма намерени файлове.</li>";
+            if (countDiv) countDiv.textContent = "";
+            return;
+        }
+        if (countDiv) countDiv.textContent = `${list.length} резултата`;
+        for (const entry of list) {
+    if (!entry.files || entry.files.length === 0) continue;
+    // Show all filetype badges
+    let filetypeBadges = entry.files.map(f =>
+        `<a class="g-filetype-badge" href="${encodeURI(f.path)}" download="${f.filename}" title="${f.filetype.toUpperCase()}">${f.filetype.toUpperCase()}
+        </a>`
+    ).join("");
+    let firstFile = entry.files[0];
+    let org = entry["organization name"] || "";
+    let folder = entry.folder || "";
+    let orgFolder = org + (org && folder ? " / " : "") + folder;
+    let title = humanizeFilename(entry.title);
+
+    // Check for НОИ or Национален Осигурителен Институт
+    let orgLogo = ""; // <-- Remove logo usage
+
+    ul.innerHTML += `
+<li>
+    <div class="g-result-snippet" style="margin-bottom:2px;">
+        <span class="g-org-folder">
+            ${orgFolder}
+        </span>
+    </div>
+    <div class="g-result-title" style="
+        font-size: 18px;
+        color: #202124;
+        font-weight: 400;
+        margin-bottom: 2px;
+        line-height: 1.35;
+        font-family: Arial, sans-serif;
+        word-break: break-word;
+        letter-spacing: 0.01em;
+        text-decoration: none;
+    ">
+        ${title}
+    </div>
+    <div class="g-result-badges" style="margin-top:10px;">${filetypeBadges}</div>
+</li>`;
+    }
+        // Add download tracking for all filetype badges and main title
+        ul.querySelectorAll("a.g-filetype-badge, a.g-result-title").forEach(a => {
+            a.addEventListener("click", function(e) {
+                let obj = {
+                    title: a.textContent,
+                    path: a.getAttribute("href"),
+                    filename: a.getAttribute("download")
+                };
+                if (!lastDownloads.some(d => d && d.title === obj.title && d.path === obj.path)) {
+                    lastDownloads.unshift(obj);
+                    saveToLocalStorage("jsonidx_last_downloads", lastDownloads);
+                    updateSidebox("last-downloads", lastDownloads);
+                    updateSidebox("last-downloads-results", lastDownloads);
+                }
+            });
+        });
+    }
+
+    function doSearch(q, saveSearch = true) {
+        q = (q || "").trim().toLowerCase();
+        let results;
+        if (!q) {
+            results = files;
+        } else {
+            // Split query into words, ignore empty
+            let words = q.split(/\s+/).filter(Boolean);
+            results = files.filter(entry => {
+                // Prepare all searchable fields as a single string
+                let fields = [
+                    entry.title || "",
+                    entry.folder || "",
+                    entry["organization name"] || "",
+                    ...(Array.isArray(entry.files) ? entry.files.flatMap(f => [
+                        f.filename || "",
+                        f.filetype || "",
+                        f.path || ""
+                    ]) : [])
+                ].join(" ").toLowerCase();
+                // All words must be present
+                return words.every(word => fields.includes(word));
+            });
+        }
+        renderResults(results);
+        if (saveSearch && q && (!lastSearches.length || lastSearches[0] != q)) {
+            lastSearches.unshift(q);
+            saveToLocalStorage("jsonidx_last_searches", lastSearches);
+            updateSidebox("last-searches", lastSearches);
+            updateSidebox("last-searches-results", lastSearches);
+        }
+    }
+
+    // Initial state: show home view, hide results view
+    document.getElementById("home-view").classList.remove("hide");
+    document.getElementById("results-view").classList.add("hide");
+
+    // Fetch files and initialize
+    fetch(jsonFile)
+        .then(r => r.json())
+        .then(data => {
+            files = data;
+            lastSearches = loadFromLocalStorage("jsonidx_last_searches");
+            lastDownloads = loadFromLocalStorage("jsonidx_last_downloads");
+            updateSidebox("last-searches", lastSearches);
+            updateSidebox("last-downloads", lastDownloads);
+            updateSidebox("last-searches-results", lastSearches);
+            updateSidebox("last-downloads-results", lastDownloads);
+        });
+
+    // Home search field
+    document.getElementById("search").addEventListener("keydown", function(e) {
+        if (e.key === "Enter") {
+            searchSubmitted = true;
+            document.getElementById("home-view").classList.add("hide");
+            document.getElementById("results-view").classList.remove("hide");
+            document.getElementById("search-results").value = this.value;
+            doSearch(this.value, true);
+            document.getElementById("search-results").focus();
+        }
+    });
+
+    // Results search field
+    document.getElementById("search-results").addEventListener("keydown", function(e) {
+        if (e.key === "Enter") {
+            doSearch(this.value, true);
+            let q = this.value.trim().toLowerCase();
+            let results = files.filter(entry =>
+                (entry.title && entry.title.toLowerCase().includes(q)) ||
+                (entry.folder && entry.folder.toLowerCase().includes(q)) ||
+                (entry["organization name"] && entry["organization name"].toLowerCase().includes(q)) ||
+                (Array.isArray(entry.files) && entry.files.some(f =>
+                    (f.filename && f.filename.toLowerCase().includes(q)) ||
+                    (f.filetype && f.filetype.toLowerCase().includes(q)) ||
+                    (f.path && f.path.toLowerCase().includes(q))
+                ))
+            );
+            if (results.length === 1 && results[0].files && results[0].files.length > 0) {
+                window.open(results[0].files[0].path, "_blank");
+            }
+        }
+    });
+
+document.getElementById("search-btn").addEventListener("click", function() {
+    const input = document.getElementById("search");
+    document.getElementById("home-view").classList.add("hide");
+    document.getElementById("results-view").classList.remove("hide");
+    document.getElementById("search-results").value = input.value;
+    doSearch(input.value, true);
+    document.getElementById("search-results").focus();
+});
+
+document.getElementById("search-results-btn").addEventListener("click", function() {
+    const input = document.getElementById("search-results");
+    doSearch(input.value, true);
+    let q = input.value.trim().toLowerCase();
+    let results = files.filter(entry =>
+        (entry.title && entry.title.toLowerCase().includes(q)) ||
+        (entry.folder && entry.folder.toLowerCase().includes(q)) ||
+        (entry["organization name"] && entry["organization name"].toLowerCase().includes(q)) ||
+        (Array.isArray(entry.files) && entry.files.some(f =>
+            (f.filename && f.filename.toLowerCase().includes(q)) ||
+            (f.filetype && f.filetype.toLowerCase().includes(q)) ||
+            (f.path && f.path.toLowerCase().includes(q))
+        ))
+    );
+    if (results.length === 1 && results[0].files && results[0].files.length > 0) {
+        window.open(results[0].files[0].path, "_blank");
+    }
+});
+    </script>
 </body>
 </html>
