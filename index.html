@@ -586,6 +586,16 @@
                     path: a.getAttribute("href"),
                     filename: a.getAttribute("download")
                 };
+                // If it's a filetype badge, get the title from the result title in the same <li>
+                if (a.classList.contains("g-filetype-badge")) {
+                    let li = a.closest("li");
+                    if (li) {
+                        let titleDiv = li.querySelector(".g-result-title");
+                        if (titleDiv) {
+                            obj.title = titleDiv.textContent.trim();
+                        }
+                    }
+                }
                 if (!lastDownloads.some(d => d && d.title === obj.title && d.path === obj.path)) {
                     lastDownloads.unshift(obj);
                     saveToLocalStorage("jsonidx_last_downloads", lastDownloads);
