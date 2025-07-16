@@ -1,5 +1,1461 @@
 [
   {
+    "title": "Config",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/config",
+        "filename": "config",
+        "last_changed": "2025-07-07 14:38:16",
+        "organization name": ".git",
+        "folder": ""
+      }
+    ],
+    "organization name": ".git",
+    "folder": "",
+    "last_changed": "2025-07-07 14:38:16"
+  },
+  {
+    "title": "Description",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/description",
+        "filename": "description",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": ""
+      }
+    ],
+    "organization name": ".git",
+    "folder": "",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Fetch head",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/FETCH_HEAD",
+        "filename": "FETCH_HEAD",
+        "last_changed": "2025-07-08 12:10:10",
+        "organization name": ".git",
+        "folder": ""
+      }
+    ],
+    "organization name": ".git",
+    "folder": "",
+    "last_changed": "2025-07-08 12:10:10"
+  },
+  {
+    "title": "Head",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/HEAD",
+        "filename": "HEAD",
+        "last_changed": "2025-07-07 14:38:14",
+        "organization name": ".git",
+        "folder": ""
+      }
+    ],
+    "organization name": ".git",
+    "folder": "",
+    "last_changed": "2025-07-07 14:38:14"
+  },
+  {
+    "title": "Index",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/index",
+        "filename": "index",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": ""
+      }
+    ],
+    "organization name": ".git",
+    "folder": "",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Packed refs",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/packed-refs",
+        "filename": "packed-refs",
+        "last_changed": "2025-07-07 14:38:14",
+        "organization name": ".git",
+        "folder": ""
+      }
+    ],
+    "organization name": ".git",
+    "folder": "",
+    "last_changed": "2025-07-07 14:38:14"
+  },
+  {
+    "title": "Applypatch msg",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/applypatch-msg.sample",
+        "filename": "applypatch-msg.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Commit msg",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/commit-msg.sample",
+        "filename": "commit-msg.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Fsmonitor watchman",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/fsmonitor-watchman.sample",
+        "filename": "fsmonitor-watchman.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Post update",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/post-update.sample",
+        "filename": "post-update.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Pre applypatch",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/pre-applypatch.sample",
+        "filename": "pre-applypatch.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Pre commit",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/pre-commit.sample",
+        "filename": "pre-commit.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Pre merge commit",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/pre-merge-commit.sample",
+        "filename": "pre-merge-commit.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Pre push",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/pre-push.sample",
+        "filename": "pre-push.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Pre rebase",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/pre-rebase.sample",
+        "filename": "pre-rebase.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Pre receive",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/pre-receive.sample",
+        "filename": "pre-receive.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Prepare commit msg",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/prepare-commit-msg.sample",
+        "filename": "prepare-commit-msg.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Push to checkout",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/push-to-checkout.sample",
+        "filename": "push-to-checkout.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Sendemail validate",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/sendemail-validate.sample",
+        "filename": "sendemail-validate.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Update",
+    "files": [
+      {
+        "filetype": "sample",
+        "path": ".git/hooks/update.sample",
+        "filename": "update.sample",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "hooks"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "hooks",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Exclude",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/info/exclude",
+        "filename": "exclude",
+        "last_changed": "2025-07-07 14:38:12",
+        "organization name": ".git",
+        "folder": "info"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "info",
+    "last_changed": "2025-07-07 14:38:12"
+  },
+  {
+    "title": "Head",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/logs/HEAD",
+        "filename": "HEAD",
+        "last_changed": "2025-07-07 14:38:14",
+        "organization name": ".git",
+        "folder": "logs"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "logs",
+    "last_changed": "2025-07-07 14:38:14"
+  },
+  {
+    "title": "Main",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/logs/refs/heads/main",
+        "filename": "main",
+        "last_changed": "2025-07-07 14:38:14",
+        "organization name": ".git",
+        "folder": "logs\\refs\\heads"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "logs\\refs\\heads",
+    "last_changed": "2025-07-07 14:38:14"
+  },
+  {
+    "title": "Head",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/logs/refs/remotes/origin/HEAD",
+        "filename": "HEAD",
+        "last_changed": "2025-07-08 12:10:10",
+        "organization name": ".git",
+        "folder": "logs\\refs\\remotes\\origin"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "logs\\refs\\remotes\\origin",
+    "last_changed": "2025-07-08 12:10:10"
+  },
+  {
+    "title": "Bd93c4add33d5cae0210e1f6b29c9650c826db",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/00/bd93c4add33d5cae0210e1f6b29c9650c826db",
+        "filename": "bd93c4add33d5cae0210e1f6b29c9650c826db",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\00"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\00",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "A397ee3d49f86cfed12b5026c3a31f6216af63",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/06/a397ee3d49f86cfed12b5026c3a31f6216af63",
+        "filename": "a397ee3d49f86cfed12b5026c3a31f6216af63",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\06"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\06",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Cd13e2f6f79a811b9e0892ff0e86f9d88aaa11",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/12/cd13e2f6f79a811b9e0892ff0e86f9d88aaa11",
+        "filename": "cd13e2f6f79a811b9e0892ff0e86f9d88aaa11",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\12"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\12",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "287e5fc0b4d997a8e347dcacd4968dc61a899e",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/17/287e5fc0b4d997a8e347dcacd4968dc61a899e",
+        "filename": "287e5fc0b4d997a8e347dcacd4968dc61a899e",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\17"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\17",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "097df652da5bcb710221b1de3c4ad15c132e7c",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/18/097df652da5bcb710221b1de3c4ad15c132e7c",
+        "filename": "097df652da5bcb710221b1de3c4ad15c132e7c",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\18"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\18",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "4d6a988fc079e5f337da7dfd5413be826cff9d",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/1d/4d6a988fc079e5f337da7dfd5413be826cff9d",
+        "filename": "4d6a988fc079e5f337da7dfd5413be826cff9d",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\1d"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\1d",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Db9d2d7893db5c45ca15c50e1bf89e46360b67",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/20/db9d2d7893db5c45ca15c50e1bf89e46360b67",
+        "filename": "db9d2d7893db5c45ca15c50e1bf89e46360b67",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\20"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\20",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "5f11f08fc9f009605c298d6ceaab89849a0ce4",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/23/5f11f08fc9f009605c298d6ceaab89849a0ce4",
+        "filename": "5f11f08fc9f009605c298d6ceaab89849a0ce4",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\23"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\23",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Afba213ce78257f33c1fd23f0c63c36534ebd9",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/25/afba213ce78257f33c1fd23f0c63c36534ebd9",
+        "filename": "afba213ce78257f33c1fd23f0c63c36534ebd9",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\25"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\25",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "De481d5926b63bc46974506888e903e651f1f4",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/25/de481d5926b63bc46974506888e903e651f1f4",
+        "filename": "de481d5926b63bc46974506888e903e651f1f4",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\25"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\25",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "B3f4636c554814bfe0df64d0be605be4a1be2e",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/26/b3f4636c554814bfe0df64d0be605be4a1be2e",
+        "filename": "b3f4636c554814bfe0df64d0be605be4a1be2e",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\26"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\26",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "33cf189590c3f531289481651aab2d164b65c6",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/27/33cf189590c3f531289481651aab2d164b65c6",
+        "filename": "33cf189590c3f531289481651aab2d164b65c6",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\27"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\27",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "59399923433cee6e2728abeb3e7bca3dc8c85d",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/2a/59399923433cee6e2728abeb3e7bca3dc8c85d",
+        "filename": "59399923433cee6e2728abeb3e7bca3dc8c85d",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\2a"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\2a",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "59cf73d2f18164c4b9be69fbecc344075c903c",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/2d/59cf73d2f18164c4b9be69fbecc344075c903c",
+        "filename": "59cf73d2f18164c4b9be69fbecc344075c903c",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\2d"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\2d",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "B52133c40fb8cd9f4994d2b8b2376b61f43376",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/32/b52133c40fb8cd9f4994d2b8b2376b61f43376",
+        "filename": "b52133c40fb8cd9f4994d2b8b2376b61f43376",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\32"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\32",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "9027a486cae1765c2c0a54c0f38afc44a43e23",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/3c/9027a486cae1765c2c0a54c0f38afc44a43e23",
+        "filename": "9027a486cae1765c2c0a54c0f38afc44a43e23",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\3c"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\3c",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "01d53ed63b9b9593721313f7dbfdae1708443a",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/3d/01d53ed63b9b9593721313f7dbfdae1708443a",
+        "filename": "01d53ed63b9b9593721313f7dbfdae1708443a",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\3d"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\3d",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Cd2859ffa2a597a31cd16b06bcd7667ce2d118",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/3d/cd2859ffa2a597a31cd16b06bcd7667ce2d118",
+        "filename": "cd2859ffa2a597a31cd16b06bcd7667ce2d118",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\3d"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\3d",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "E6dc5edc9a0d371d6b92a61e102c079fac6bce",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/40/e6dc5edc9a0d371d6b92a61e102c079fac6bce",
+        "filename": "e6dc5edc9a0d371d6b92a61e102c079fac6bce",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\40"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\40",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "5e041e6b5dba88bbbabb0f9b8680969a1ccb35",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/43/5e041e6b5dba88bbbabb0f9b8680969a1ccb35",
+        "filename": "5e041e6b5dba88bbbabb0f9b8680969a1ccb35",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\43"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\43",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Ad391d0a2c8449185605bb0dd9687459266578",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/50/ad391d0a2c8449185605bb0dd9687459266578",
+        "filename": "ad391d0a2c8449185605bb0dd9687459266578",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\50"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\50",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "C2aadbf063c4335953e048cad4af70d261d7d5",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/52/c2aadbf063c4335953e048cad4af70d261d7d5",
+        "filename": "c2aadbf063c4335953e048cad4af70d261d7d5",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\52"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\52",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "1d75dcb4c0aeac2a930d1c9d082c6b50d2e1b9",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/53/1d75dcb4c0aeac2a930d1c9d082c6b50d2e1b9",
+        "filename": "1d75dcb4c0aeac2a930d1c9d082c6b50d2e1b9",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\53"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\53",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Dc51f1c7ebe787a8e5bf97759afa53c4525b74",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/5a/dc51f1c7ebe787a8e5bf97759afa53c4525b74",
+        "filename": "dc51f1c7ebe787a8e5bf97759afa53c4525b74",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\5a"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\5a",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "4cdc2fd1ab4f72728043d3ee91e0ea44ec5379",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/5b/4cdc2fd1ab4f72728043d3ee91e0ea44ec5379",
+        "filename": "4cdc2fd1ab4f72728043d3ee91e0ea44ec5379",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\5b"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\5b",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "8a2a101fc3aaf65d24aae9baee347b5445367a",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/5d/8a2a101fc3aaf65d24aae9baee347b5445367a",
+        "filename": "8a2a101fc3aaf65d24aae9baee347b5445367a",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\5d"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\5d",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "6b12ed620d9356bfad90d364abfe1a9370768c",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/5e/6b12ed620d9356bfad90d364abfe1a9370768c",
+        "filename": "6b12ed620d9356bfad90d364abfe1a9370768c",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\5e"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\5e",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "335c70f725ca7ed04e11f6b97ae45b2683c6f3",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/5f/335c70f725ca7ed04e11f6b97ae45b2683c6f3",
+        "filename": "335c70f725ca7ed04e11f6b97ae45b2683c6f3",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\5f"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\5f",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "7597de1cab621ff2dd7041b999b18c24782b75",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/63/7597de1cab621ff2dd7041b999b18c24782b75",
+        "filename": "7597de1cab621ff2dd7041b999b18c24782b75",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\63"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\63",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "99e9bc14c6538fbc922b2197affa1a7a448c31",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/6b/99e9bc14c6538fbc922b2197affa1a7a448c31",
+        "filename": "99e9bc14c6538fbc922b2197affa1a7a448c31",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\6b"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\6b",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "64b720468420f60316285098ded09f150c5052",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/6c/64b720468420f60316285098ded09f150c5052",
+        "filename": "64b720468420f60316285098ded09f150c5052",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\6c"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\6c",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "285c0f63438cf759a3130305f29b3d815c9e04",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/71/285c0f63438cf759a3130305f29b3d815c9e04",
+        "filename": "285c0f63438cf759a3130305f29b3d815c9e04",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\71"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\71",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "17bed9aba7272365ea511f96c29c7947d42570",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/73/17bed9aba7272365ea511f96c29c7947d42570",
+        "filename": "17bed9aba7272365ea511f96c29c7947d42570",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\73"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\73",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "57b88a3eabc8e04aed8756897fd8c65f3f9aa6",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/75/57b88a3eabc8e04aed8756897fd8c65f3f9aa6",
+        "filename": "57b88a3eabc8e04aed8756897fd8c65f3f9aa6",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\75"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\75",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "22000161a8f2212b3724b080dacc72f510d8a8",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/7e/22000161a8f2212b3724b080dacc72f510d8a8",
+        "filename": "22000161a8f2212b3724b080dacc72f510d8a8",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\7e"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\7e",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Bfbabac4fcdd544f133a45bdc10c9dd07c6136",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/82/bfbabac4fcdd544f133a45bdc10c9dd07c6136",
+        "filename": "bfbabac4fcdd544f133a45bdc10c9dd07c6136",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\82"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\82",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "E5e21fe03c75c6ff5d8522302cba7d06bdaba7",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/89/e5e21fe03c75c6ff5d8522302cba7d06bdaba7",
+        "filename": "e5e21fe03c75c6ff5d8522302cba7d06bdaba7",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\89"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\89",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Dca2ddb0ffe5c9d3785a85f8f59445a5fc50b3",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/8f/dca2ddb0ffe5c9d3785a85f8f59445a5fc50b3",
+        "filename": "dca2ddb0ffe5c9d3785a85f8f59445a5fc50b3",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\8f"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\8f",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "3209dfbc0f7f6251d8ebc849c2264a7a7dd620",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/90/3209dfbc0f7f6251d8ebc849c2264a7a7dd620",
+        "filename": "3209dfbc0f7f6251d8ebc849c2264a7a7dd620",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\90"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\90",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "78c6263cd3c84ea68824c676e304b25aa74e9d",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/93/78c6263cd3c84ea68824c676e304b25aa74e9d",
+        "filename": "78c6263cd3c84ea68824c676e304b25aa74e9d",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\93"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\93",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "189f613d76d6b4b1c3b9f563874ca865bfb90c",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/94/189f613d76d6b4b1c3b9f563874ca865bfb90c",
+        "filename": "189f613d76d6b4b1c3b9f563874ca865bfb90c",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\94"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\94",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "83f01b86a1127d28d838a6679ed0483accf58a",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/94/83f01b86a1127d28d838a6679ed0483accf58a",
+        "filename": "83f01b86a1127d28d838a6679ed0483accf58a",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\94"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\94",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "B6a9c7b6de4bf4a04ec6abad86bf03f726f2eb",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/a6/b6a9c7b6de4bf4a04ec6abad86bf03f726f2eb",
+        "filename": "b6a9c7b6de4bf4a04ec6abad86bf03f726f2eb",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\a6"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\a6",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Fe743dff0c1c93a2c08961a4bf8d5d8a31519f",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/aa/fe743dff0c1c93a2c08961a4bf8d5d8a31519f",
+        "filename": "fe743dff0c1c93a2c08961a4bf8d5d8a31519f",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\aa"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\aa",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "6b45c3669e16aba75c8c4c42a9238f9f6a0985",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/ab/6b45c3669e16aba75c8c4c42a9238f9f6a0985",
+        "filename": "6b45c3669e16aba75c8c4c42a9238f9f6a0985",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\ab"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\ab",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "588bc72be072e361f0dbefba4112e9fb9e574a",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/b4/588bc72be072e361f0dbefba4112e9fb9e574a",
+        "filename": "588bc72be072e361f0dbefba4112e9fb9e574a",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\b4"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\b4",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "D80f9cfa149dcaf7746f633a24c12ba0fe05a4",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/b7/d80f9cfa149dcaf7746f633a24c12ba0fe05a4",
+        "filename": "d80f9cfa149dcaf7746f633a24c12ba0fe05a4",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\b7"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\b7",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Cc0211f65af9a4b88764d3ef75ba91942a4ea9",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/b9/cc0211f65af9a4b88764d3ef75ba91942a4ea9",
+        "filename": "cc0211f65af9a4b88764d3ef75ba91942a4ea9",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\b9"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\b9",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "8c0af5302da5ace8256652e982e524d776bd02",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/ba/8c0af5302da5ace8256652e982e524d776bd02",
+        "filename": "8c0af5302da5ace8256652e982e524d776bd02",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\ba"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\ba",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "9a64569ab9d8972d6339680e4cac28014472f4",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/ba/9a64569ab9d8972d6339680e4cac28014472f4",
+        "filename": "9a64569ab9d8972d6339680e4cac28014472f4",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\ba"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\ba",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "3a4c6cebaacb8f0f540a463ab0fc4a1c093e1c",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/bc/3a4c6cebaacb8f0f540a463ab0fc4a1c093e1c",
+        "filename": "3a4c6cebaacb8f0f540a463ab0fc4a1c093e1c",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\bc"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\bc",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Aa45c34ff72ba6896a8a6a83c5bf954f421df3",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/c3/aa45c34ff72ba6896a8a6a83c5bf954f421df3",
+        "filename": "aa45c34ff72ba6896a8a6a83c5bf954f421df3",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\c3"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\c3",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Fdabb48c1054bb4fb6faf93fbe4debf29388c2",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/c8/fdabb48c1054bb4fb6faf93fbe4debf29388c2",
+        "filename": "fdabb48c1054bb4fb6faf93fbe4debf29388c2",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\c8"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\c8",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "51af3df9b73d48bddf0be644bb32aa013cb129",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/cf/51af3df9b73d48bddf0be644bb32aa013cb129",
+        "filename": "51af3df9b73d48bddf0be644bb32aa013cb129",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\cf"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\cf",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "F045c92ebbbe83cc03c3aeaa8be11d05d1a52d",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/cf/f045c92ebbbe83cc03c3aeaa8be11d05d1a52d",
+        "filename": "f045c92ebbbe83cc03c3aeaa8be11d05d1a52d",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\cf"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\cf",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "4ba0961372d069d034af13a061cd4eb5afd02d",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/d4/4ba0961372d069d034af13a061cd4eb5afd02d",
+        "filename": "4ba0961372d069d034af13a061cd4eb5afd02d",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\d4"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\d4",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "B57bf8bf3d29ed9259abb04895c310624152da",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/d8/b57bf8bf3d29ed9259abb04895c310624152da",
+        "filename": "b57bf8bf3d29ed9259abb04895c310624152da",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\d8"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\d8",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Ef1877a9992ce3e5dd238de5e878b4f6612573",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/da/ef1877a9992ce3e5dd238de5e878b4f6612573",
+        "filename": "ef1877a9992ce3e5dd238de5e878b4f6612573",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\da"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\da",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "03d5d937e87f68c1007bec1008ab9896959da9",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/e4/03d5d937e87f68c1007bec1008ab9896959da9",
+        "filename": "03d5d937e87f68c1007bec1008ab9896959da9",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\e4"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\e4",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "filename": "9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\e6"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\e6",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "F5ffb45bb02737acf43355fd60c56fe0c23f10",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/e7/f5ffb45bb02737acf43355fd60c56fe0c23f10",
+        "filename": "f5ffb45bb02737acf43355fd60c56fe0c23f10",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\e7"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\e7",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "E8f2ad58315b5a8189f85ab015cacf9726f4f9",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/ef/e8f2ad58315b5a8189f85ab015cacf9726f4f9",
+        "filename": "e8f2ad58315b5a8189f85ab015cacf9726f4f9",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\ef"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\ef",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Fc4e616307107393daf524eeef0a48dff78c59",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/objects/f7/fc4e616307107393daf524eeef0a48dff78c59",
+        "filename": "fc4e616307107393daf524eeef0a48dff78c59",
+        "last_changed": "2025-07-08 11:46:56",
+        "organization name": ".git",
+        "folder": "objects\\f7"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\f7",
+    "last_changed": "2025-07-08 11:46:56"
+  },
+  {
+    "title": "Pack 5f6092ece1f13acb666648194266531b36acb3df",
+    "files": [
+      {
+        "filetype": "idx",
+        "path": ".git/objects/pack/pack-5f6092ece1f13acb666648194266531b36acb3df.idx",
+        "filename": "pack-5f6092ece1f13acb666648194266531b36acb3df.idx",
+        "last_changed": "2025-07-07 14:38:14",
+        "organization name": ".git",
+        "folder": "objects\\pack"
+      },
+      {
+        "filetype": "pack",
+        "path": ".git/objects/pack/pack-5f6092ece1f13acb666648194266531b36acb3df.pack",
+        "filename": "pack-5f6092ece1f13acb666648194266531b36acb3df.pack",
+        "last_changed": "2025-07-07 14:38:14",
+        "organization name": ".git",
+        "folder": "objects\\pack"
+      },
+      {
+        "filetype": "rev",
+        "path": ".git/objects/pack/pack-5f6092ece1f13acb666648194266531b36acb3df.rev",
+        "filename": "pack-5f6092ece1f13acb666648194266531b36acb3df.rev",
+        "last_changed": "2025-07-07 14:38:14",
+        "organization name": ".git",
+        "folder": "objects\\pack"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "objects\\pack",
+    "last_changed": "2025-07-07 14:38:14"
+  },
+  {
+    "title": "Main",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/refs/heads/main",
+        "filename": "main",
+        "last_changed": "2025-07-07 14:38:14",
+        "organization name": ".git",
+        "folder": "refs\\heads"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "refs\\heads",
+    "last_changed": "2025-07-07 14:38:14"
+  },
+  {
+    "title": "Head",
+    "files": [
+      {
+        "filetype": "",
+        "path": ".git/refs/remotes/origin/HEAD",
+        "filename": "HEAD",
+        "last_changed": "2025-07-08 12:10:10",
+        "organization name": ".git",
+        "folder": "refs\\remotes\\origin"
+      }
+    ],
+    "organization name": ".git",
+    "folder": "refs\\remotes\\origin",
+    "last_changed": "2025-07-08 12:10:10"
+  },
+  {
     "title": "Test",
     "files": [
       {
@@ -72,12 +1528,12 @@
     "last_changed": "2025-06-23 10:48:10"
   },
   {
-    "title": "Приложение № 11 заявление за изплащане на парично обезщетение за временна неработоспособност и бременност и раждане за периоди след ликвидация или прекратяване на осигурителя",
+    "title": "Приложение № 11 заявление изплащане обезщетение временна неработоспособност и бременност и раждане след ликвидация или прекратяване на осигурителя",
     "files": [
       {
         "filetype": "doc",
-        "path": "Национален Осигурителен Институт/Архив/Приложение_№_11_-_Заявление_за_изплащане_на_парично_обезщетение_за_временна_неработоспособност_и_бременност_и_раждане_за_периоди_след_ликвидация_или_прекратяване_на_осигурителя.doc",
-        "filename": "Приложение_№_11_-_Заявление_за_изплащане_на_парично_обезщетение_за_временна_неработоспособност_и_бременност_и_раждане_за_периоди_след_ликвидация_или_прекратяване_на_осигурителя.doc",
+        "path": "Национален Осигурителен Институт/Архив/Приложение_№_11-Заявление_изплащане_обезщетение_временна_неработоспособност_и_бременност_и_раждане_след_ликвидация_или_прекратяване_на_осигурителя.doc",
+        "filename": "Приложение_№_11-Заявление_изплащане_обезщетение_временна_неработоспособност_и_бременност_и_раждане_след_ликвидация_или_прекратяване_на_осигурителя.doc",
         "last_changed": "2025-06-23 10:48:15",
         "organization name": "Национален Осигурителен Институт",
         "folder": "Архив"
@@ -120,12 +1576,12 @@
     "last_changed": "2025-06-23 10:48:37"
   },
   {
-    "title": "Приложение № 14 заявление декларация за изплащане на парично обезщетение при раждане на дете на основание чл. 50, ал. 7 ксо след навършване на 6 месечна възраст на детето за остатъка до 410 календарни дни.",
+    "title": "Приложение № 14 заявление декларация изплащане парично обезщетение раждане дете чл. 50, ал. 7 ксо навършване 6 месечна възраст за остатъка до 410 календарни дни",
     "files": [
       {
         "filetype": "doc",
-        "path": "Национален Осигурителен Институт/Архив/Приложение_№_14_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_раждане_на_дете_на_основание_чл._50,_ал._7_КСО_след_навършване_на_6-месечна_възраст_на_детето_за_остатъка_до_410_календарни_дни..doc",
-        "filename": "Приложение_№_14_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_раждане_на_дете_на_основание_чл._50,_ал._7_КСО_след_навършване_на_6-месечна_възраст_на_детето_за_остатъка_до_410_календарни_дни..doc",
+        "path": "Национален Осигурителен Институт/Архив/Приложение_№_14_-_Заявление-декларация_изплащане_парично_обезщетение_раждане_дете_чл._50,_ал._7_КСО_навършване_6-месечна_възраст_за_остатъка_до_410_календарни_дни.doc",
+        "filename": "Приложение_№_14_-_Заявление-декларация_изплащане_парично_обезщетение_раждане_дете_чл._50,_ал._7_КСО_навършване_6-месечна_възраст_за_остатъка_до_410_календарни_дни.doc",
         "last_changed": "2025-06-23 10:48:42",
         "organization name": "Национален Осигурителен Институт",
         "folder": "Архив"
@@ -136,12 +1592,12 @@
     "last_changed": "2025-06-23 10:48:42"
   },
   {
-    "title": "Приложение № 14а заявление декларация за изплащане на парично обезщетение при осиновяване на дете от 2 до 5 годишна възраст на основание чл. 53а ксо след изтичане на 6 месеца от деня на предаване на детето за осиновяване за остатъка до 365 дни",
+    "title": "Приложение № 14а заявление декларация изплащане парично обезщетение осиновяване дете 2 5 годишна възраст чл. 53а ксо след изтичане 6 месеца до 365 дни",
     "files": [
       {
         "filetype": "doc",
-        "path": "Национален Осигурителен Институт/Архив/Приложение_№_14а_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_осиновяване_на_дете_от_2-_до_5-годишна_възраст_на_основание_чл._53а_КСО_след_изтичане_на_6_месеца_от_деня_на_предаване_на_детето_за_осиновяване_за_остатъка_до_365_дни.doc",
-        "filename": "Приложение_№_14а_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_осиновяване_на_дете_от_2-_до_5-годишна_възраст_на_основание_чл._53а_КСО_след_изтичане_на_6_месеца_от_деня_на_предаване_на_детето_за_осиновяване_за_остатъка_до_365_дни.doc",
+        "path": "Национален Осигурителен Институт/Архив/Приложение_№_14а-Заявление-декларация_изплащане_парично_обезщетение_осиновяване_дете_2-5-годишна_възраст_чл._53а_КСО_след_изтичане_6_месеца_до_365_дни.doc",
+        "filename": "Приложение_№_14а-Заявление-декларация_изплащане_парично_обезщетение_осиновяване_дете_2-5-годишна_възраст_чл._53а_КСО_след_изтичане_6_месеца_до_365_дни.doc",
         "last_changed": "2025-06-23 10:48:57",
         "organization name": "Национален Осигурителен Институт",
         "folder": "Архив"
@@ -200,12 +1656,12 @@
     "last_changed": "2025-06-23 10:46:19"
   },
   {
-    "title": "Приложение № 2 заявление декларация за изплащане на парично обезщетение при бременност и раждане на основание чл. 50, ал. 1 и чл. 51 ксо за остатъка от 135 до 410 календарни дни",
+    "title": "Приложение № 2 заявление декларация изплащане обезщетение при бременност и раждане чл. 50, ал. 1 и чл. 51 ксо остатъка от 135 до 410 календарни дни",
     "files": [
       {
         "filetype": "doc",
-        "path": "Национален Осигурителен Институт/Архив/Приложение_№_2_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50,_ал._1_и_чл._51_КСО_за_остатъка_от_135_до_410_календарни_дни.doc",
-        "filename": "Приложение_№_2_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50,_ал._1_и_чл._51_КСО_за_остатъка_от_135_до_410_календарни_дни.doc",
+        "path": "Национален Осигурителен Институт/Архив/Приложение_№_2_-_Заявление-декларация_изплащане_обезщетение_при_бременност_и_раждане_чл._50,_ал._1_и_чл._51_КСО_остатъка_от_135_до_410_календарни_дни.doc",
+        "filename": "Приложение_№_2_-_Заявление-декларация_изплащане_обезщетение_при_бременност_и_раждане_чл._50,_ал._1_и_чл._51_КСО_остатъка_от_135_до_410_календарни_дни.doc",
         "last_changed": "2025-06-23 10:46:28",
         "organization name": "Национален Осигурителен Институт",
         "folder": "Архив"
@@ -1908,1918 +3364,6 @@
       }
     ],
     "organization name": "Национален Осигурителен Институт",
-    "folder": "Формуляри_и_образци_за_профилактика_и_рехабилитация",
-    "last_changed": "2025-06-23 10:44:17"
-  },
-  {
-    "title": "Заявление за издаване на удостоверение за изплатени парични обезщетения и помощи от доо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Заявление_за_издаване_на_удостоверение_за_изплатени_парични_обезщетения_и_помощи_от_ДОО.doc",
-        "filename": "Заявление_за_издаване_на_удостоверение_за_изплатени_парични_обезщетения_и_помощи_от_ДОО.doc",
-        "last_changed": "2025-06-23 10:46:08",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:46:08"
-  },
-  {
-    "title": "Приложение № 10 справка за приети и върнати документи, представени с придружително писмо или заявление в тп на нои за 2015 г.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_10_-_Справка_за_приети_и_върнати_документи,_представени_с_придружително_писмо_или_заявление_в_ТП_на_НОИ_-_за_2015_г..doc",
-        "filename": "Приложение_№_10_-_Справка_за_приети_и_върнати_документи,_представени_с_придружително_писмо_или_заявление_в_ТП_на_НОИ_-_за_2015_г..doc",
-        "last_changed": "2025-06-23 10:48:10",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:48:10"
-  },
-  {
-    "title": "Приложение № 11 заявление за изплащане на парично обезщетение за временна неработоспособност и бременност и раждане за периоди след ликвидация или прекратяване на осигурителя",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_11_-_Заявление_за_изплащане_на_парично_обезщетение_за_временна_неработоспособност_и_бременност_и_раждане_за_периоди_след_ликвидация_или_прекратяване_на_осигурителя.doc",
-        "filename": "Приложение_№_11_-_Заявление_за_изплащане_на_парично_обезщетение_за_временна_неработоспособност_и_бременност_и_раждане_за_периоди_след_ликвидация_или_прекратяване_на_осигурителя.doc",
-        "last_changed": "2025-06-23 10:48:15",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:48:15"
-  },
-  {
-    "title": "Приложение № 12 декларация за обстоятелствата за изплащане на паричните обезщетения и или помощи от държавното обществено осигуряване",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_12_-_Декларация_за_обстоятелствата_за_изплащане_на_паричните_обезщетения_и_или_помощи_от_държавното_обществено_осигуряване.doc",
-        "filename": "Приложение_№_12_-_Декларация_за_обстоятелствата_за_изплащане_на_паричните_обезщетения_и_или_помощи_от_държавното_обществено_осигуряване.doc",
-        "last_changed": "2025-06-23 10:48:28",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:48:28"
-  },
-  {
-    "title": "Приложение № 12 декларация за обстоятелствата за изплащане на парично обезщетение при бременност и раждане на основание чл. 50 тест",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_12_-_Декларация_за_обстоятелствата_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50-тест.doc",
-        "filename": "Приложение_№_12_-_Декларация_за_обстоятелствата_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50-тест.doc",
-        "last_changed": "2025-07-03 09:54:43",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      },
-      {
-        "filetype": "docx",
-        "path": "НОИ/Архив/Приложение_№_12_-_Декларация_за_обстоятелствата_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50-тест.docx",
-        "filename": "Приложение_№_12_-_Декларация_за_обстоятелствата_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50-тест.docx",
-        "last_changed": "2025-07-02 09:56:16",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      },
-      {
-        "filetype": "html",
-        "path": "НОИ/Архив/Приложение_№_12_-_Декларация_за_обстоятелствата_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50-тест.html",
-        "filename": "Приложение_№_12_-_Декларация_за_обстоятелствата_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50-тест.html",
-        "last_changed": "2025-07-03 09:55:01",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      },
-      {
-        "filetype": "pdf",
-        "path": "НОИ/Архив/Приложение_№_12_-_Декларация_за_обстоятелствата_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50-тест.pdf",
-        "filename": "Приложение_№_12_-_Декларация_за_обстоятелствата_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50-тест.pdf",
-        "last_changed": "2025-07-02 09:56:37",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-07-03 09:55:01"
-  },
-  {
-    "title": "Приложение № 13 заявление декларация за изплащане на парично обезщетение при раждане на дете на основание чл. 50, ал. 6 ксо 15 календарни дни.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_13_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_раждане_на_дете_на_основание_чл._50,_ал._6_КСО_15_календарни_дни..doc",
-        "filename": "Приложение_№_13_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_раждане_на_дете_на_основание_чл._50,_ал._6_КСО_15_календарни_дни..doc",
-        "last_changed": "2025-06-23 10:48:37",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:48:37"
-  },
-  {
-    "title": "Приложение № 14 заявление декларация за изплащане на парично обезщетение при раждане на дете на основание чл. 50, ал. 7 ксо след навършване на 6 месечна възраст на детето за остатъка до 410 календарни дни.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_14_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_раждане_на_дете_на_основание_чл._50,_ал._7_КСО_след_навършване_на_6-месечна_възраст_на_детето_за_остатъка_до_410_календарни_дни..doc",
-        "filename": "Приложение_№_14_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_раждане_на_дете_на_основание_чл._50,_ал._7_КСО_след_навършване_на_6-месечна_възраст_на_детето_за_остатъка_до_410_календарни_дни..doc",
-        "last_changed": "2025-06-23 10:48:42",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:48:42"
-  },
-  {
-    "title": "Приложение № 14а заявление декларация за изплащане на парично обезщетение при осиновяване на дете от 2 до 5 годишна възраст на основание чл. 53а ксо след изтичане на 6 месеца от деня на предаване на детето за осиновяване за остатъка до 365 дни",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_14а_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_осиновяване_на_дете_от_2-_до_5-годишна_възраст_на_основание_чл._53а_КСО_след_изтичане_на_6_месеца_от_деня_на_предаване_на_детето_за_осиновяване_за_остатъка_до_365_дни.doc",
-        "filename": "Приложение_№_14а_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_осиновяване_на_дете_от_2-_до_5-годишна_възраст_на_основание_чл._53а_КСО_след_изтичане_на_6_месеца_от_деня_на_предаване_на_детето_за_осиновяване_за_остатъка_до_365_дни.doc",
-        "last_changed": "2025-06-23 10:48:57",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:48:57"
-  },
-  {
-    "title": "Приложение № 15 – декларация от осигурителя самоосигуряващия се относно правото на парично обезщетение за 2015 г.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_15_–_Декларация_от_осигурителя___самоосигуряващия_се_относно_правото_на_парично_обезщетение_-_за_2015_г..doc",
-        "filename": "Приложение_№_15_–_Декларация_от_осигурителя___самоосигуряващия_се_относно_правото_на_парично_обезщетение_-_за_2015_г..doc",
-        "last_changed": "2025-06-23 10:49:10",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:49:10"
-  },
-  {
-    "title": "Приложение № 16 заявление декларация за изплащане на неполучени парични обезщетения и помощи при смърт на осигурено лице",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_16_-_Заявление_-_декларация_за_изплащане_на_неполучени_парични_обезщетения_и_помощи_при_смърт_на_осигурено_лице.doc",
-        "filename": "Приложение_№_16_-_Заявление_-_декларация_за_изплащане_на_неполучени_парични_обезщетения_и_помощи_при_смърт_на_осигурено_лице.doc",
-        "last_changed": "2025-06-23 10:49:22",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:49:22"
-  },
-  {
-    "title": "Приложение № 1 декларация за обстоятелствата за изплащане на парично обезщетение при бременност и раждане на основание чл. 50, ал. 1 и 51 ксо за 2015 г.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_1_-_Декларация_за_обстоятелствата_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50,_ал._1_и_51_КСО_-_за_2015_г..doc",
-        "filename": "Приложение_№_1_-_Декларация_за_обстоятелствата_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50,_ал._1_и_51_КСО_-_за_2015_г..doc",
-        "last_changed": "2025-06-23 10:46:19",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:46:19"
-  },
-  {
-    "title": "Приложение № 2 заявление декларация за изплащане на парично обезщетение при бременност и раждане на основание чл. 50, ал. 1 и чл. 51 ксо за остатъка от 135 до 410 календарни дни",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_2_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50,_ал._1_и_чл._51_КСО_за_остатъка_от_135_до_410_календарни_дни.doc",
-        "filename": "Приложение_№_2_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50,_ал._1_и_чл._51_КСО_за_остатъка_от_135_до_410_календарни_дни.doc",
-        "last_changed": "2025-06-23 10:46:28",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:46:28"
-  },
-  {
-    "title": "Приложение № 2а заявление декларация за изплащане на парично обезщетение при осиновяване на дете от 2 до 5 годишна възраст на основание чл. 53а ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_2а_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_осиновяване_на_дете_от_2-_до_5-годишна_възраст_на_основание_чл._53а_КСО.doc",
-        "filename": "Приложение_№_2а_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_осиновяване_на_дете_от_2-_до_5-годишна_възраст_на_основание_чл._53а_КСО.doc",
-        "last_changed": "2025-06-23 10:46:43",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:46:43"
-  },
-  {
-    "title": "Приложение № 3 заявление декларация за изплащане на парично обезщетение за отглеждане на малко дете на основание чл. 53 ксо.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_3_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_за_отглеждане_на_малко_дете_на_основание_чл._53_КСО..doc",
-        "filename": "Приложение_№_3_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_за_отглеждане_на_малко_дете_на_основание_чл._53_КСО..doc",
-        "last_changed": "2025-06-23 10:46:54",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:46:54"
-  },
-  {
-    "title": "Приложение № 4 заявление декларация за изплащане на парично обезщетение за отглеждане на малко дете на основание чл. 54 ксо.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_4_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_за_отглеждане_на_малко_дете_на_основание_чл._54_КСО..doc",
-        "filename": "Приложение_№_4_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_за_отглеждане_на_малко_дете_на_основание_чл._54_КСО..doc",
-        "last_changed": "2025-06-23 10:47:08",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:47:08"
-  },
-  {
-    "title": "Приложение № 5 заявление декларация за изплащане на парична помощ по чл. 11, ал. 3 ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_5_-_Заявление_-_декларация_за_изплащане_на_парична_помощ_по_чл._11,_ал._3_КСО.doc",
-        "filename": "Приложение_№_5_-_Заявление_-_декларация_за_изплащане_на_парична_помощ_по_чл._11,_ал._3_КСО.doc",
-        "last_changed": "2025-06-23 10:47:20",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:47:20"
-  },
-  {
-    "title": "Приложение № 6 заявление декларация за изплащане на парична помощ при смърт на осигурено лице по чл. 11, ал. 2, чл. 12, ал. 2 или чл. 13, ал. 2 ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_6_-_Заявление_-_декларация_за_изплащане_на_парична_помощ_при_смърт_на_осигурено_лице_по_чл._11,_ал._2,_чл._12,_ал._2_или_чл._13,_ал._2_КСО.doc",
-        "filename": "Приложение_№_6_-_Заявление_-_декларация_за_изплащане_на_парична_помощ_при_смърт_на_осигурено_лице_по_чл._11,_ал._2,_чл._12,_ал._2_или_чл._13,_ал._2_КСО.doc",
-        "last_changed": "2025-06-23 10:47:31",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:47:31"
-  },
-  {
-    "title": "Приложение № 7 декларация за банковата сметка за изплащане на паричните обезщетения и помощи от доо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_7_-_Декларация_за_банковата_сметка_за_изплащане_на_паричните_обезщетения_и_помощи_от_ДОО.doc",
-        "filename": "Приложение_№_7_-_Декларация_за_банковата_сметка_за_изплащане_на_паричните_обезщетения_и_помощи_от_ДОО.doc",
-        "last_changed": "2025-06-23 10:47:40",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:47:40"
-  },
-  {
-    "title": "Приложение № 8 придружително писмо за 2015 г.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_8_-_Придружително_писмо_-_за_2015_г..doc",
-        "filename": "Приложение_№_8_-_Придружително_писмо_-_за_2015_г..doc",
-        "last_changed": "2025-06-23 10:47:46",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:47:46"
-  },
-  {
-    "title": "Приложение № 9 опис на документите по чл. 3 5 и чл. 14 от наредбата за 2015 г.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Архив/Приложение_№_9_-_Опис_на_документите_по_чл._3-5_и_чл._14_от_наредбата_-_за_2015_г..doc",
-        "filename": "Приложение_№_9_-_Опис_на_документите_по_чл._3-5_и_чл._14_от_наредбата_-_за_2015_г..doc",
-        "last_changed": "2025-06-23 10:47:56",
-        "organization name": "НОИ",
-        "folder": "Архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Архив",
-    "last_changed": "2025-06-23 10:47:56"
-  },
-  {
-    "title": "Oбр. п 27. заявление за връчване на разпореждане",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Oбр. П-27. Заявление за връчване на разпореждане.doc",
-        "filename": "Oбр. П-27. Заявление за връчване на разпореждане.doc",
-        "last_changed": "2025-06-23 11:46:14",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:46:14"
-  },
-  {
-    "title": "Декларация по чл. 7, ал. 4, т. 5 от наредбата за пенсиите и осигурителния стаж",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Декларация по чл. 7, ал. 4, т. 5 от Наредбата за пенсиите и осигурителния стаж.doc",
-        "filename": "Декларация по чл. 7, ал. 4, т. 5 от Наредбата за пенсиите и осигурителния стаж.doc",
-        "last_changed": "2025-06-23 11:39:47",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:39:47"
-  },
-  {
-    "title": "Заявление обр. п 11 – заявление за преизчисляване на пенсията с осигурителен доход за друг тригодишен период",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление - обр. П-11 – Заявление за преизчисляване на пенсията с осигурителен доход за друг тригодишен период.doc",
-        "filename": "Заявление - обр. П-11 – Заявление за преизчисляване на пенсията с осигурителен доход за друг тригодишен период.doc",
-        "last_changed": "2025-06-23 11:43:55",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:43:55"
-  },
-  {
-    "title": "Заявление обр. п 13 – заявление за даване на съгласие за удържане на суми по задължение",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление - обр. П-13 – Заявление за даване на съгласие за удържане на суми по задължение.doc",
-        "filename": "Заявление - обр. П-13 – Заявление за даване на съгласие за удържане на суми по задължение.doc",
-        "last_changed": "2025-06-23 11:44:03",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:44:03"
-  },
-  {
-    "title": "Заявление обр. п 14 – заявление за изплащане на неполучена пенсия и добавки към нея от починал пенсионер",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление - обр. П-14 – Заявление за изплащане на неполучена пенсия и добавки към нея от починал пенсионер.doc",
-        "filename": "Заявление - обр. П-14 – Заявление за изплащане на неполучена пенсия и добавки към нея от починал пенсионер.doc",
-        "last_changed": "2025-06-23 11:44:12",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:44:12"
-  },
-  {
-    "title": "Заявление обр. п 15 – заявление за изплащане на неполучени пенсии",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление - обр. П-15 – Заявление за изплащане на неполучени пенсии.doc",
-        "filename": "Заявление - обр. П-15 – Заявление за изплащане на неполучени пенсии.doc",
-        "last_changed": "2025-06-23 11:44:22",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:44:22"
-  },
-  {
-    "title": "Заявление обр. п 5 – заявление за спиране на пенсия",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление - обр. П-5 – Заявление за спиране на пенсия.doc",
-        "filename": "Заявление - обр. П-5 – Заявление за спиране на пенсия.doc",
-        "last_changed": "2025-06-23 11:43:16",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:43:16"
-  },
-  {
-    "title": "Заявление обр. п 7 – заявление за възобновяване или възстановяване на пенсия",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление - обр. П-7 – Заявление за възобновяване или възстановяване на пенсия.doc",
-        "filename": "Заявление - обр. П-7 – Заявление за възобновяване или възстановяване на пенсия.doc",
-        "last_changed": "2025-06-23 11:43:34",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:43:34"
-  },
-  {
-    "title": "Заявление обр. п 8 – заявление за изменение на пенсията (с придобит осигурителен стаж и осигурителен доход преди пенсиониране)",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление - обр. П-8 – Заявление за изменение на пенсията (с придобит осигурителен стаж и осигурителен доход преди пенсиониране).doc",
-        "filename": "Заявление - обр. П-8 – Заявление за изменение на пенсията (с придобит осигурителен стаж и осигурителен доход преди пенсиониране).doc",
-        "last_changed": "2025-06-23 11:43:47",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:43:47"
-  },
-  {
-    "title": "Заявление за издаване на удостоверение за изплатени парични обезщетения и помощи от доо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление за издаване на удостоверение за изплатени парични обезщетения и помощи от ДОО.doc",
-        "filename": "Заявление за издаване на удостоверение за изплатени парични обезщетения и помощи от ДОО.doc",
-        "last_changed": "2025-06-23 11:39:37",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:39:37"
-  },
-  {
-    "title": "Заявление за издаване на удостоверение за направени осигурителни вноски и зачетен осигурителен стаж на лицата, които са се осигурявали към своч на тпк",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление за издаване на удостоверение за направени осигурителни вноски и зачетен осигурителен стаж на лицата, които са се осигурявали към СВОЧ на ТПК.doc",
-        "filename": "Заявление за издаване на удостоверение за направени осигурителни вноски и зачетен осигурителен стаж на лицата, които са се осигурявали към СВОЧ на ТПК.doc",
-        "last_changed": "2025-06-23 11:41:07",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:41:07"
-  },
-  {
-    "title": "Заявление за изплащане на средствата по §4б, ал. 2 от пзр на ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление за изплащане на средствата по §4б, ал. 2 от ПЗР на КСО.doc",
-        "filename": "Заявление за изплащане на средствата по §4б, ал. 2 от ПЗР на КСО.doc",
-        "last_changed": "2025-06-23 11:39:56",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:39:56"
-  },
-  {
-    "title": "Заявление за изплащане на средствата по §4б, ал. 3 от пзр на ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление за изплащане на средствата по §4б, ал. 3 от ПЗР на КСО.doc",
-        "filename": "Заявление за изплащане на средствата по §4б, ал. 3 от ПЗР на КСО.doc",
-        "last_changed": "2025-06-23 11:40:07",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:40:07"
-  },
-  {
-    "title": "Заявление за изплащане на средствата по §4б, ал. 4 от пзр на ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление за изплащане на средствата по §4б, ал. 4 от ПЗР на КСО.doc",
-        "filename": "Заявление за изплащане на средствата по §4б, ал. 4 от ПЗР на КСО.doc",
-        "last_changed": "2025-06-23 11:40:51",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:40:51"
-  },
-  {
-    "title": "Заявление – обр. п 1 – заявление за промяна на адреса или начина за получаване на пенсията и добавките към нея",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление – обр. П-1 – Заявление за промяна на адреса или начина за получаване на пенсията и добавките към нея.doc",
-        "filename": "Заявление – обр. П-1 – Заявление за промяна на адреса или начина за получаване на пенсията и добавките към нея.doc",
-        "last_changed": "2025-06-23 11:43:04",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:43:04"
-  },
-  {
-    "title": "Заявление – обр. п 1а – заявление за превеждане на пенсия в доставчик на платежни услуги, подадено чрез доставчика",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Заявление – обр. П-1А – Заявление за превеждане на пенсия в доставчик на платежни услуги, подадено чрез доставчика.doc",
-        "filename": "Заявление – обр. П-1А – Заявление за превеждане на пенсия в доставчик на платежни услуги, подадено чрез доставчика.doc",
-        "last_changed": "2025-06-23 11:40:59",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:40:59"
-  },
-  {
-    "title": "Обр. з 1. заявление за удостоверяване на осигурителен стаж и доход за самоосигуряващо се лице",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Обр. З-1. Заявление за удостоверяване на осигурителен стаж и доход за самоосигуряващо се лице.doc",
-        "filename": "Обр. З-1. Заявление за удостоверяване на осигурителен стаж и доход за самоосигуряващо се лице.doc",
-        "last_changed": "2025-06-23 11:40:17",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:40:17"
-  },
-  {
-    "title": "Обр. з 2. заявление за заверка на осигурителна книжка от осигурителни каси, търговски представителства, упълномощени лица и др.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Обр. З-2. Заявление за заверка на осигурителна книжка от осигурителни каси, търговски представителства, упълномощени лица и др..doc",
-        "filename": "Обр. З-2. Заявление за заверка на осигурителна книжка от осигурителни каси, търговски представителства, упълномощени лица и др..doc",
-        "last_changed": "2025-06-23 11:40:33",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:40:33"
-  },
-  {
-    "title": "Обр. з 3. заявление за издаване на удостоверение за внесени осигурителни вноски за осигурителен стаж (уп 16)",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Обр. З-3. Заявление за издаване на Удостоверение за внесени осигурителни вноски за осигурителен стаж (УП-16).doc",
-        "filename": "Обр. З-3. Заявление за издаване на Удостоверение за внесени осигурителни вноски за осигурителен стаж (УП-16).doc",
-        "last_changed": "2025-06-23 11:40:43",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:40:43"
-  },
-  {
-    "title": "Обр. п 18. заявление за получаване на персонален идентификационен код (пик) от осигурените лица",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Обр. П-18. Заявление за получаване на персонален идентификационен код (ПИК) от осигурените лица.doc",
-        "filename": "Обр. П-18. Заявление за получаване на персонален идентификационен код (ПИК) от осигурените лица.doc",
-        "last_changed": "2025-06-23 11:44:55",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:44:55"
-  },
-  {
-    "title": "Обр. п 19. заявление за получаване на идентификационен код на осигурител (ико) от осигурителите",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Обр. П-19. Заявление за получаване на идентификационен код на осигурител (ИКО) от осигурителите.doc",
-        "filename": "Обр. П-19. Заявление за получаване на идентификационен код на осигурител (ИКО) от осигурителите.doc",
-        "last_changed": "2025-06-23 11:45:06",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:45:06"
-  },
-  {
-    "title": "Обр. п 21. заявление за издаване на удостоверение за осигурителен стаж по оригинални документи, съхранявани в пенсионното досие",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Обр. П-21. Заявление за издаване на удостоверение за осигурителен стаж по оригинални документи, съхранявани в пенсионното досие.doc",
-        "filename": "Обр. П-21. Заявление за издаване на удостоверение за осигурителен стаж по оригинални документи, съхранявани в пенсионното досие.doc",
-        "last_changed": "2025-06-23 11:45:20",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:45:20"
-  },
-  {
-    "title": "Обр. п 24. заявление за отказ от ежегодно преизчисляване на пенсия за трудова дейност по чл. 102, ал. 1, т. 2 от ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Обр. П-24. Заявление за отказ от ежегодно преизчисляване на пенсия за трудова дейност по чл. 102, ал. 1, т. 2 от КСО.doc",
-        "filename": "Обр. П-24. Заявление за отказ от ежегодно преизчисляване на пенсия за трудова дейност по чл. 102, ал. 1, т. 2 от КСО.doc",
-        "last_changed": "2025-06-23 11:45:29",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:45:29"
-  },
-  {
-    "title": "Обр. п 25. заявление за избор на начин за кореспонденция с административния орган във връзка с пенсия и или добавка",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Обр. П-25. Заявление за избор на начин за кореспонденция с административния орган във връзка с пенсия и или добавка.doc",
-        "filename": "Обр. П-25. Заявление за избор на начин за кореспонденция с административния орган във връзка с пенсия и или добавка.doc",
-        "last_changed": "2025-06-23 11:45:59",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:45:59"
-  },
-  {
-    "title": "Пълномощно обр. п 16 – примерен образец на пълномощно без нотариална заверка",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Примерни образци/Пълномощно - обр. П-16 – Примерен образец на пълномощно без нотариална заверка.doc",
-        "filename": "Пълномощно - обр. П-16 – Примерен образец на пълномощно без нотариална заверка.doc",
-        "last_changed": "2025-06-23 11:44:31",
-        "organization name": "НОИ",
-        "folder": "Примерни образци"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Примерни образци",
-    "last_changed": "2025-06-23 11:44:31"
-  },
-  {
-    "title": "Бързо известие за съмнение за професионална болест",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри и образци за трудови злополуки и професионални болести/Бързо известие за съмнение за професионална болест.doc",
-        "filename": "Бързо известие за съмнение за професионална болест.doc",
-        "last_changed": "2025-06-23 11:36:05",
-        "organization name": "НОИ",
-        "folder": "Формуляри и образци за трудови злополуки и професионални болести"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри и образци за трудови злополуки и професионални болести",
-    "last_changed": "2025-06-23 11:36:05"
-  },
-  {
-    "title": "Декларация за трудова злополука обр. о 112022нои",
-    "files": [
-      {
-        "filetype": "docx",
-        "path": "НОИ/Формуляри и образци за трудови злополуки и професионални болести/Декларация за трудова злополука - Обр. О-112022НОИ.docx",
-        "filename": "Декларация за трудова злополука - Обр. О-112022НОИ.docx",
-        "last_changed": "2025-06-23 11:35:23",
-        "organization name": "НОИ",
-        "folder": "Формуляри и образци за трудови злополуки и професионални болести"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри и образци за трудови злополуки и професионални болести",
-    "last_changed": "2025-06-23 11:35:23"
-  },
-  {
-    "title": "Заповед за проучване на професионално заболяване",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри и образци за трудови злополуки и професионални болести/Заповед за проучване на професионално заболяване.doc",
-        "filename": "Заповед за проучване на професионално заболяване.doc",
-        "last_changed": "2025-06-23 11:37:19",
-        "organization name": "НОИ",
-        "folder": "Формуляри и образци за трудови злополуки и професионални болести"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри и образци за трудови злополуки и професионални болести",
-    "last_changed": "2025-06-23 11:37:19"
-  },
-  {
-    "title": "Заявление за издаване на удостоверение за наличие или липса на трудови злополуки",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри и образци за трудови злополуки и професионални болести/Заявление за издаване на удостоверение за наличие или липса на трудови злополуки.doc",
-        "filename": "Заявление за издаване на удостоверение за наличие или липса на трудови злополуки.doc",
-        "last_changed": "2025-06-23 11:36:50",
-        "organization name": "НОИ",
-        "folder": "Формуляри и образци за трудови злополуки и професионални болести"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри и образци за трудови злополуки и професионални болести",
-    "last_changed": "2025-06-23 11:36:50"
-  },
-  {
-    "title": "Производствена характеристика",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри и образци за трудови злополуки и професионални болести/Производствена характеристика.doc",
-        "filename": "Производствена характеристика.doc",
-        "last_changed": "2025-06-23 11:36:17",
-        "organization name": "НОИ",
-        "folder": "Формуляри и образци за трудови злополуки и професионални болести"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри и образци за трудови злополуки и професионални болести",
-    "last_changed": "2025-06-23 11:36:17"
-  },
-  {
-    "title": "Протокол за проучване на професионална болест",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри и образци за трудови злополуки и професионални болести/Протокол за проучване на професионална болест.doc",
-        "filename": "Протокол за проучване на професионална болест.doc",
-        "last_changed": "2025-06-23 11:36:30",
-        "organization name": "НОИ",
-        "folder": "Формуляри и образци за трудови злополуки и професионални болести"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри и образци за трудови злополуки и професионални болести",
-    "last_changed": "2025-06-23 11:36:30"
-  },
-  {
-    "title": "Разпореждане на основание чл. 60, ал. 1 от ксо за приемане или неприемане на злополука за трудова",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри и образци за трудови злополуки и професионални болести/Разпореждане на основание чл. 60, ал. 1 от КСО за приемане или неприемане на злополука за трудова.doc",
-        "filename": "Разпореждане на основание чл. 60, ал. 1 от КСО за приемане или неприемане на злополука за трудова.doc",
-        "last_changed": "2025-06-23 11:37:02",
-        "organization name": "НОИ",
-        "folder": "Формуляри и образци за трудови злополуки и професионални болести"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри и образци за трудови злополуки и професионални болести",
-    "last_changed": "2025-06-23 11:37:02"
-  },
-  {
-    "title": "Регистрационна карта за призната професионална болест",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри и образци за трудови злополуки и професионални болести/Регистрационна карта за призната професионална болест.doc",
-        "filename": "Регистрационна карта за призната професионална болест.doc",
-        "last_changed": "2025-06-23 11:36:41",
-        "organization name": "НОИ",
-        "folder": "Формуляри и образци за трудови злополуки и професионални болести"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри и образци за трудови злополуки и професионални болести",
-    "last_changed": "2025-06-23 11:36:41"
-  },
-  {
-    "title": "Удостоверение за наличие или липса на трудови злополуки",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри и образци за трудови злополуки и професионални болести/Удостоверение за наличие или липса на трудови злополуки.doc",
-        "filename": "Удостоверение за наличие или липса на трудови злополуки.doc",
-        "last_changed": "2025-06-23 11:37:10",
-        "organization name": "НОИ",
-        "folder": "Формуляри и образци за трудови злополуки и професионални болести"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри и образци за трудови злополуки и професионални болести",
-    "last_changed": "2025-06-23 11:37:10"
-  },
-  {
-    "title": "Образец на заверителен надпис (чл. 11 от инструкция №5 на управителя на нои)",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_oсигурителен_архив/Образец_на_заверителен_надпис_(чл._11_от_Инструкция_№5_на_управителя_на_НОИ).doc",
-        "filename": "Образец_на_заверителен_надпис_(чл._11_от_Инструкция_№5_на_управителя_на_НОИ).doc",
-        "last_changed": "2025-06-23 10:45:51",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_oсигурителен_архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_oсигурителен_архив",
-    "last_changed": "2025-06-23 10:45:51"
-  },
-  {
-    "title": "Образец на заглавна страница на дело",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_oсигурителен_архив/Образец_на_заглавна_страница_на_дело.doc",
-        "filename": "Образец_на_заглавна_страница_на_дело.doc",
-        "last_changed": "2025-06-23 10:45:37",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_oсигурителен_архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_oсигурителен_архив",
-    "last_changed": "2025-06-23 10:45:37"
-  },
-  {
-    "title": "Образец на заглавна страница на опис (чл. 12 от инструкция №5 на управителя на нои)",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_oсигурителен_архив/Образец_на_заглавна_страница_на_опис_(чл._12_от_Инструкция_№5_на_управителя_на_НОИ).doc",
-        "filename": "Образец_на_заглавна_страница_на_опис_(чл._12_от_Инструкция_№5_на_управителя_на_НОИ).doc",
-        "last_changed": "2025-06-23 10:45:43",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_oсигурителен_архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_oсигурителен_архив",
-    "last_changed": "2025-06-23 10:45:43"
-  },
-  {
-    "title": "Образец на заявление за издаване на удостоверение за стаж и доход",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_oсигурителен_архив/Образец_на_заявление_за_издаване_на_удостоверение_за_стаж_и_доход.doc",
-        "filename": "Образец_на_заявление_за_издаване_на_удостоверение_за_стаж_и_доход.doc",
-        "last_changed": "2025-06-23 10:45:26",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_oсигурителен_архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_oсигурителен_архив",
-    "last_changed": "2025-06-23 10:45:26"
-  },
-  {
-    "title": "Образец на заявление по чл. 5, ал. 10 от ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_oсигурителен_архив/Образец_на_заявление_по_чл._5,_ал._10_от_КСО.doc",
-        "filename": "Образец_на_заявление_по_чл._5,_ал._10_от_КСО.doc",
-        "last_changed": "2025-06-23 10:45:59",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_oсигурителен_архив"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_oсигурителен_архив",
-    "last_changed": "2025-06-23 10:45:59"
-  },
-  {
-    "title": "Заявление за отпускане на парично обезщетение за безработица",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_безработица/Заявление_за_отпускане_на_парично_обезщетение_за_безработица.doc",
-        "filename": "Заявление_за_отпускане_на_парично_обезщетение_за_безработица.doc",
-        "last_changed": "2025-06-23 10:40:28",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_безработица"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_безработица",
-    "last_changed": "2025-06-23 10:40:28"
-  },
-  {
-    "title": "В сила от 01.08.2022 г.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/-_в_сила_от_01.08.2022_г..doc",
-        "filename": "-_в_сила_от_01.08.2022_г..doc",
-        "last_changed": "2025-06-23 10:42:05",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:42:05"
-  },
-  {
-    "title": "Приложение № 10 удостоверение от осигурителя относно правото на парично обезщетение на осигурено лице",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_10_-_Удостоверение_от_осигурителя_относно_правото_на_парично_обезщетение_на_осигурено_лице.doc",
-        "filename": "Приложение_№_10_-_Удостоверение_от_осигурителя_относно_правото_на_парично_обезщетение_на_осигурено_лице.doc",
-        "last_changed": "2025-06-23 10:42:36",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:42:36"
-  },
-  {
-    "title": "Приложение № 11 удостоверение относно правото на парично обезщетение на самоосигуряващо се лице",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_11_-_Удостоверение_относно_правото_на_парично_обезщетение_на_самоосигуряващо_се_лице.doc",
-        "filename": "Приложение_№_11_-_Удостоверение_относно_правото_на_парично_обезщетение_на_самоосигуряващо_се_лице.doc",
-        "last_changed": "2025-06-23 10:42:42",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:42:42"
-  },
-  {
-    "title": "Приложение № 12 придружително писмо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_12_-_Придружително_писмо.doc",
-        "filename": "Приложение_№_12_-_Придружително_писмо.doc",
-        "last_changed": "2025-06-23 10:42:54",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:42:54"
-  },
-  {
-    "title": "Приложение № 13 заявление за упълномощаване и оттегляне на упълномощаването за представяне на документи по електронен път в нои с квалифициран електронен подпис на упълномощено лице",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_13_-_Заявление_за_упълномощаване_и_оттегляне_на_упълномощаването_за_представяне_на_документи_по_електронен_път_в_НОИ_с_квалифициран_електронен_подпис_на_упълномощено_лице.doc",
-        "filename": "Приложение_№_13_-_Заявление_за_упълномощаване_и_оттегляне_на_упълномощаването_за_представяне_на_документи_по_електронен_път_в_НОИ_с_квалифициран_електронен_подпис_на_упълномощено_лице.doc",
-        "last_changed": "2025-06-23 10:43:06",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:43:06"
-  },
-  {
-    "title": "Приложение № 14 справка за приети и върнати документи, представени в нои по електронен път",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_14_-_Справка_за_приети_и_върнати_документи,_представени_в_НОИ_по_електронен_път.doc",
-        "filename": "Приложение_№_14_-_Справка_за_приети_и_върнати_документи,_представени_в_НОИ_по_електронен_път.doc",
-        "last_changed": "2025-06-23 10:43:12",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:43:12"
-  },
-  {
-    "title": "Приложение № 15 заявление за изплащане на парични обезщетения при ликвидация или прекратяване на осигурителя или при прекратяване на трудовия договор по реда на чл. 327 ал. 2 от кт",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_15_-_Заявление_за_изплащане_на_парични_обезщетения_при_ликвидация_или_прекратяване_на_осигурителя_или_при_прекратяване_на_трудовия_договор_по_реда_на_чл._327_ал._2_от_КТ.doc",
-        "filename": "Приложение_№_15_-_Заявление_за_изплащане_на_парични_обезщетения_при_ликвидация_или_прекратяване_на_осигурителя_или_при_прекратяване_на_трудовия_договор_по_реда_на_чл._327_ал._2_от_КТ.doc",
-        "last_changed": "2025-06-23 10:43:17",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:43:17"
-  },
-  {
-    "title": "Приложение № 16 заявление декларация за изплащане на парична помощ по чл. 11, ал. 3 от ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_16_-_Заявление-декларация_за_изплащане_на_парична_помощ_по_чл._11,_ал._3_от_КСО.doc",
-        "filename": "Приложение_№_16_-_Заявление-декларация_за_изплащане_на_парична_помощ_по_чл._11,_ал._3_от_КСО.doc",
-        "last_changed": "2025-06-23 10:43:31",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:43:31"
-  },
-  {
-    "title": "Приложение № 17 заявление декларация за изплащане на парична помощ при смърт на осигурено лице по чл. 11, ал. 2, чл. 12, ал. 2 или чл. 13, ал. 2 от ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_17_-_Заявление-декларация_за_изплащане_на_парична_помощ_при_смърт_на_осигурено_лице_по_чл._11,_ал._2,_чл._12,_ал._2_или_чл._13,_ал._2_от_КСО.doc",
-        "filename": "Приложение_№_17_-_Заявление-декларация_за_изплащане_на_парична_помощ_при_смърт_на_осигурено_лице_по_чл._11,_ал._2,_чл._12,_ал._2_или_чл._13,_ал._2_от_КСО.doc",
-        "last_changed": "2025-06-23 10:43:37",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:43:37"
-  },
-  {
-    "title": "Приложение № 18 заявление декларация за изплащане на неполучени от починало лице парични обезщетения и помощи",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_18_-_Заявление-декларация_за_изплащане_на_неполучени_от_починало_лице_парични_обезщетения_и_помощи.doc",
-        "filename": "Приложение_№_18_-_Заявление-декларация_за_изплащане_на_неполучени_от_починало_лице_парични_обезщетения_и_помощи.doc",
-        "last_changed": "2025-06-23 10:43:45",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:43:45"
-  },
-  {
-    "title": "Приложение № 19 придружително писмо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_19_-_Придружително_писмо.doc",
-        "filename": "Приложение_№_19_-_Придружително_писмо.doc",
-        "last_changed": "2025-06-23 10:43:58",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:43:58"
-  },
-  {
-    "title": "Приложение № 1 декларация за обстоятелствата за изплащане на парични обезщетения за временна неработоспособност, бременност и раждане и трудоустрояване по болнични листове",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_1_-_Декларация_за_обстоятелствата_за_изплащане_на_парични_обезщетения_за_временна_неработоспособност,_бременност_и_раждане_и_трудоустрояване_по_болнични_листове.doc",
-        "filename": "Приложение_№_1_-_Декларация_за_обстоятелствата_за_изплащане_на_парични_обезщетения_за_временна_неработоспособност,_бременност_и_раждане_и_трудоустрояване_по_болнични_листове.doc",
-        "last_changed": "2025-06-23 10:40:40",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:40:40"
-  },
-  {
-    "title": "Приложение № 20 заявление декларация за промяна на съответното тп на нои",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_20_-_Заявление-декларация_за_промяна_на__съответното_ТП_на_НОИ.doc",
-        "filename": "Приложение_№_20_-_Заявление-декларация_за_промяна_на__съответното_ТП_на_НОИ.doc",
-        "last_changed": "2025-06-23 10:44:11",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:44:11"
-  },
-  {
-    "title": "Приложение № 2 заявление декларация за изплащане на парично обезщетение при бременност и раждане на основание чл. 50, ал. 1 и ал. 5 от ксо до 410 дни",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_2_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50,_ал._1_и_ал._5_от_КСО_до_410_дни.doc",
-        "filename": "Приложение_№_2_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_бременност_и_раждане_на_основание_чл._50,_ал._1_и_ал._5_от_КСО_до_410_дни.doc",
-        "last_changed": "2025-06-23 10:40:48",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:40:48"
-  },
-  {
-    "title": "Приложение № 2а заявление декларация за изплащане на парично обезщетение при неизползване на отпуск за бременност и раждане на основание чл. 50а от ксо за остатъка до 410 дни",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_2а_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_неизползване_на_отпуск_за_бременност_и_раждане_на_основание_чл._50а_от_КСО_за_остатъка_до_410_дни.doc",
-        "filename": "Приложение_№_2а_-_Заявление_-_декларация_за_изплащане_на_парично_обезщетение_при_неизползване_на_отпуск_за_бременност_и_раждане_на_основание_чл._50а_от_КСО_за_остатъка_до_410_дни.doc",
-        "last_changed": "2025-06-23 10:41:00",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:41:00"
-  },
-  {
-    "title": "Приложение № 3 заявление декларация за изплащане на парично обезщетение при раждане на дете на основание чл. 50, ал. 6 от ксо и при осиновяване на дете до 5 годишна възраст на основание чл. 53в, ал. 2 от ксо до 15 дни",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_3_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_раждане_на_дете_на_основание_чл._50,_ал._6_от_КСО_и_при_осиновяване_на_дете_до_5-годишна_възраст_на_основание_чл._53в,_ал._2_от_КСО_до_15_дни.doc",
-        "filename": "Приложение_№_3_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_раждане_на_дете_на_основание_чл._50,_ал._6_от_КСО_и_при_осиновяване_на_дете_до_5-годишна_възраст_на_основание_чл._53в,_ал._2_от_КСО_до_15_дни.doc",
-        "last_changed": "2025-06-23 10:41:05",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:41:05"
-  },
-  {
-    "title": "Приложение № 4 заявление декларация за изплащане на парично обезщетение при раждане на дете на основание чл. 50, ал. 7 ксо след навършване на 6 месечна възраст на детето за остатъка до 410 дни",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_4_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_раждане_на_дете_на_основание_чл._50,_ал._7_КСО_след_навършване_на_6-месечна_възраст_на_детето_за_остатъка_до_410_дни.doc",
-        "filename": "Приложение_№_4_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_раждане_на_дете_на_основание_чл._50,_ал._7_КСО_след_навършване_на_6-месечна_възраст_на_детето_за_остатъка_до_410_дни.doc",
-        "last_changed": "2025-06-23 10:41:15",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:41:15"
-  },
-  {
-    "title": "Приложение № 5a заявление декларация за изплащане на парично обезщетение на основание чл. 53г от ксо за остатъка до 365 дни при неизползване на отпуск при осиновяване на дете до 5 годишна възраст",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_5a_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_на_основание_чл._53г_от_КСО_за_остатъка_до_365_дни_при_неизползване_на_отпуск_при_осиновяване_на_дете_до_5-годишна_възраст.doc",
-        "filename": "Приложение_№_5a_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_на_основание_чл._53г_от_КСО_за_остатъка_до_365_дни_при_неизползване_на_отпуск_при_осиновяване_на_дете_до_5-годишна_възраст.doc",
-        "last_changed": "2025-06-23 10:41:28",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:41:28"
-  },
-  {
-    "title": "Приложение № 5 заявление декларация за изплащане на парично обезщетение при осиновяване на дете до 5 годишна възраст за срок до 365 дни на основание чл. 53в, ал. 1 от ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_5_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_осиновяване_на_дете_до_5-годишна_възраст_за_срок_до_365_дни_на_основание_чл._53в,_ал._1_от_КСО.doc",
-        "filename": "Приложение_№_5_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_осиновяване_на_дете_до_5-годишна_възраст_за_срок_до_365_дни_на_основание_чл._53в,_ал._1_от_КСО.doc",
-        "last_changed": "2025-06-23 10:41:21",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:41:21"
-  },
-  {
-    "title": "Приложение № 6 заявление декларация за изплащане на парично обезщетение при осиновяване на дете до 5 годишна възраст на основание чл. 53в, ал. 3 от ксо след изтичане на 6 месеца от деня на предаване на детето за осиновяване за остатъка до 365 дни",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_6_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_осиновяване_на_дете_до_5-годишна_възраст_на_основание_чл._53в,_ал._3_от_КСО_след_изтичане_на_6_месеца_от_деня_на_предаване_на_детето_за_осиновяване_за_остатъка_до_365_дни.doc",
-        "filename": "Приложение_№_6_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_при_осиновяване_на_дете_до_5-годишна_възраст_на_основание_чл._53в,_ал._3_от_КСО_след_изтичане_на_6_месеца_от_деня_на_предаване_на_детето_за_осиновяване_за_остатъка_до_365_дни.doc",
-        "last_changed": "2025-06-23 10:41:41",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:41:41"
-  },
-  {
-    "title": "Приложение № 7 заявление декларация за изплащане на парично обезщетение за отглеждане на дете до 2 годишна възраст на основание чл. 53 от ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_7_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_за_отглеждане_на_дете_до_2-годишна_възраст_на_основание_чл._53_от_КСО.doc",
-        "filename": "Приложение_№_7_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_за_отглеждане_на_дете_до_2-годишна_възраст_на_основание_чл._53_от_КСО.doc",
-        "last_changed": "2025-06-23 10:41:48",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:41:48"
-  },
-  {
-    "title": "Приложение № 7а заявление декларация за изплащане на парично обезщетение за отглеждане на дете до 8 годишна възраст от бащата (осиновителя) на основание чл. 53ж от ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_7а_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_за_отглеждане_на_дете_до_8-годишна_възраст_от_бащата_(осиновителя)_на_основание_чл._53ж_от_КСО.doc",
-        "filename": "Приложение_№_7а_-_Заявление-декларация_за_изплащане_на_парично_обезщетение_за_отглеждане_на_дете_до_8-годишна_възраст_от_бащата_(осиновителя)_на_основание_чл._53ж_от_КСО.doc",
-        "last_changed": "2025-06-23 10:41:54",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:41:54"
-  },
-  {
-    "title": "Приложение № 8 заявление декларация при неизползване на отпуск за отглеждане на дете до 2 годишна възраст на основание чл. 54 от ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_8_-_Заявление-декларация_при_неизползване_на_отпуск_за_отглеждане_на_дете_до_2-годишна_възраст_на_основание_чл._54_от_КСО.doc",
-        "filename": "Приложение_№_8_-_Заявление-декларация_при_неизползване_на_отпуск_за_отглеждане_на_дете_до_2-годишна_възраст_на_основание_чл._54_от_КСО.doc",
-        "last_changed": "2025-06-23 10:42:13",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:42:13"
-  },
-  {
-    "title": "Приложение № 9 удостоверение относно правото на парично обезщетение по болничен лист",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_временна_неработоспособност_и_майчинство/Приложение_№_9_-_Удостоверение_относно_правото_на_парично_обезщетение_по_болничен_лист.doc",
-        "filename": "Приложение_№_9_-_Удостоверение_относно_правото_на_парично_обезщетение_по_болничен_лист.doc",
-        "last_changed": "2025-06-23 10:42:24",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_временна_неработоспособност_и_майчинство",
-    "last_changed": "2025-06-23 10:42:24"
-  },
-  {
-    "title": "Заявление за изплащане на гарантирани вземания, неполучени от починало лице",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_ГВРC/Заявление_за_изплащане_на_гарантирани_вземания,_неполучени_от_починало_лице.doc",
-        "filename": "Заявление_за_изплащане_на_гарантирани_вземания,_неполучени_от_починало_лице.doc",
-        "last_changed": "2025-06-23 10:45:15",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_ГВРC"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_ГВРC",
-    "last_changed": "2025-06-23 10:45:15"
-  },
-  {
-    "title": "Приложение № 1 справка за размера на начислените, но неизплатени трудови възнаграждения и парични обезщетения, дължими от работодателя по кодекса на труда и други нормативни актове",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_ГВРC/Приложение_№_1_-_Справка_за_размера_на_начислените,_но_неизплатени_трудови_възнаграждения_и_парични_обезщетения,_дължими_от_работодателя_по_Кодекса_на_труда_и_други_нормативни_актове.doc",
-        "filename": "Приложение_№_1_-_Справка_за_размера_на_начислените,_но_неизплатени_трудови_възнаграждения_и_парични_обезщетения,_дължими_от_работодателя_по_Кодекса_на_труда_и_други_нормативни_актове.doc",
-        "last_changed": "2025-06-23 10:44:31",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_ГВРC"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_ГВРC",
-    "last_changed": "2025-06-23 10:44:31"
-  },
-  {
-    "title": "Приложение № 2 декларация към чл. 5, ал. 2 от наредбата за реда и начина за информиране на работниците и служителите и за отпускане и изплащане на гарантираните вземания при несъстоятелност на работодателя.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_ГВРC/Приложение_№_2_-_Декларация_към_чл._5,_ал._2_от_Наредбата_за_реда_и_начина_за_информиране_на_работниците_и_служителите_и_за_отпускане_и_изплащане_на_гарантираните_вземания_при_несъстоятелност_на_работодателя..doc",
-        "filename": "Приложение_№_2_-_Декларация_към_чл._5,_ал._2_от_Наредбата_за_реда_и_начина_за_информиране_на_работниците_и_служителите_и_за_отпускане_и_изплащане_на_гарантираните_вземания_при_несъстоятелност_на_работодателя..doc",
-        "last_changed": "2025-06-23 10:44:45",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_ГВРC"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_ГВРC",
-    "last_changed": "2025-06-23 10:44:45"
-  },
-  {
-    "title": "Приложение № 3 декларация към чл. 7 от наредбата за реда и начина за информиране на работниците и служителите и за отпускане и изплащане на гарантираните вземания при несъстоятелност на работодателя.",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_ГВРC/Приложение_№_3_-_Декларация_към_чл._7_от_Наредбата_за_реда_и_начина_за_информиране_на_работниците_и_служителите_и_за_отпускане_и_изплащане_на_гарантираните_вземания_при_несъстоятелност_на_работодателя..doc",
-        "filename": "Приложение_№_3_-_Декларация_към_чл._7_от_Наредбата_за_реда_и_начина_за_информиране_на_работниците_и_служителите_и_за_отпускане_и_изплащане_на_гарантираните_вземания_при_несъстоятелност_на_работодателя..doc",
-        "last_changed": "2025-06-23 10:44:53",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_ГВРC"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_ГВРC",
-    "last_changed": "2025-06-23 10:44:53"
-  },
-  {
-    "title": "Приложение № 4 заявление декларация за отпускане на гарантирано вземане",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_ГВРC/Приложение_№_4_-_Заявление_-_декларация_за_отпускане_на_гарантирано_вземане.doc",
-        "filename": "Приложение_№_4_-_Заявление_-_декларация_за_отпускане_на_гарантирано_вземане.doc",
-        "last_changed": "2025-06-23 10:45:01",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_ГВРC"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_ГВРC",
-    "last_changed": "2025-06-23 10:45:01"
-  },
-  {
-    "title": "Приложение № 1 заявление за получаване на уникални номера на болнични листове",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове/Приложение_№_1_-_Заявление_за_получаване_на_уникални_номера_на_болнични_листове.doc",
-        "filename": "Приложение_№_1_-_Заявление_за_получаване_на_уникални_номера_на_болнични_листове.doc",
-        "last_changed": "2025-06-23 10:49:28",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове",
-    "last_changed": "2025-06-23 10:49:28"
-  },
-  {
-    "title": "Приложение № 3 образец на болничен лист",
-    "files": [
-      {
-        "filetype": "pdf",
-        "path": "НОИ/Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове/Приложение_№_3_-_Образец_на_болничен_лист.pdf",
-        "filename": "Приложение_№_3_-_Образец_на_болничен_лист.pdf",
-        "last_changed": "2025-06-23 10:49:36",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове",
-    "last_changed": "2025-06-23 10:49:36"
-  },
-  {
-    "title": "Приложение № 4 решение на лекарска консултативна комисия",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове/Приложение_№_4_-_Решение_на_лекарска_консултативна_комисия.doc",
-        "filename": "Приложение_№_4_-_Решение_на_лекарска_консултативна_комисия.doc",
-        "last_changed": "2025-06-23 10:49:48",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове",
-    "last_changed": "2025-06-23 10:49:48"
-  },
-  {
-    "title": "Приложение № 7 придружително писмо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове/Приложение_№_7_-_Придружително_писмо.doc",
-        "filename": "Приложение_№_7_-_Придружително_писмо.doc",
-        "last_changed": "2025-06-23 10:50:00",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове",
-    "last_changed": "2025-06-23 10:50:00"
-  },
-  {
-    "title": "Приложение № 8 опис на документите по § 1, ал. 2 от пзр към наредбата",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове/Приложение_№_8_-_Опис_на_документите_по_§_1,_ал._2_от_ПЗР_към_наредбата.doc",
-        "filename": "Приложение_№_8_-_Опис_на_документите_по_§_1,_ал._2_от_ПЗР_към_наредбата.doc",
-        "last_changed": "2025-06-23 10:50:07",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_Електронен_регистър_на_болничните_листове",
-    "last_changed": "2025-06-23 10:50:07"
-  },
-  {
-    "title": "Обр. п 20 заявление за издаване на удостоверение",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._П-20_Заявление_за_издаване_на_удостоверение.doc",
-        "filename": "обр._П-20_Заявление_за_издаване_на_удостоверение.doc",
-        "last_changed": "2025-06-23 10:39:43",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:39:43"
-  },
-  {
-    "title": "Обр. п 23 заявление за издаване на удостоверение за доходи от пенсии от други държави, изплащани чрез посредничеството на нои",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/Обр._П-23_Заявление_за_издаване_на_удостоверение_за_доходи_от_пенсии_от_други_държави,_изплащани_чрез_посредничеството_на_НОИ.doc",
-        "filename": "Обр._П-23_Заявление_за_издаване_на_удостоверение_за_доходи_от_пенсии_от_други_държави,_изплащани_чрез_посредничеството_на_НОИ.doc",
-        "last_changed": "2025-06-23 10:40:22",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:40:22"
-  },
-  {
-    "title": "Обр. уп 13.1 удостоверение за зачетен трудов осигурителен стаж, издадено въз основа на данните за доход по обр.уп 13",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-13.1_Удостоверение_за_зачетен_трудов_осигурителен_стаж,_издадено_въз_основа_на_данните_за_доход_по_обр.УП-13.doc",
-        "filename": "обр._УП-13.1_Удостоверение_за_зачетен_трудов_осигурителен_стаж,_издадено_въз_основа_на_данните_за_доход_по_обр.УП-13.doc",
-        "last_changed": "2025-06-23 10:38:41",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:38:41"
-  },
-  {
-    "title": "Обр. уп 16 удостоверение за внесени осигурителни вноски за осигурителен стаж",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-16_Удостоверение_за_внесени_осигурителни_вноски_за_осигурителен_стаж.doc",
-        "filename": "обр._УП-16_Удостоверение_за_внесени_осигурителни_вноски_за_осигурителен_стаж.doc",
-        "last_changed": "2025-06-23 10:38:56",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:38:56"
-  },
-  {
-    "title": "Обр. уп 18 удостоверение за месечен размер на пенсия и и добавка и за ползване в друга държава",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-18_Удостоверение_за_месечен_размер_на_пенсия_и_и_добавка_и_за_ползване_в_друга_държава.doc",
-        "filename": "обр._УП-18_Удостоверение_за_месечен_размер_на_пенсия_и_и_добавка_и_за_ползване_в_друга_държава.doc",
-        "last_changed": "2025-06-23 10:39:02",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:39:02"
-  },
-  {
-    "title": "Обр. уп 18а удостоверение за обстоятелството, че лицето не получава пенсия от република българия",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-18а_Удостоверение_за_обстоятелството,_че_лицето_не_получава_пенсия_от_Република_България.doc",
-        "filename": "обр._УП-18а_Удостоверение_за_обстоятелството,_че_лицето_не_получава_пенсия_от_Република_България.doc",
-        "last_changed": "2025-06-23 10:39:10",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:39:10"
-  },
-  {
-    "title": "Обр. уп 19 удостоверение за месечен размер на пенсия и и добавка и за определен период за ползване в друга държава",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-19_Удостоверение_за_месечен_размер_на_пенсия_и_и_добавка_и_за_определен_период_за_ползване_в_друга_държава.doc",
-        "filename": "обр._УП-19_Удостоверение_за_месечен_размер_на_пенсия_и_и_добавка_и_за_определен_период_за_ползване_в_друга_държава.doc",
-        "last_changed": "2025-06-23 10:39:16",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:39:16"
-  },
-  {
-    "title": "Обр. уп 1 заявление за отпускане на пенсия(и) и или добавка(и)",
-    "files": [
-      {
-        "filetype": "pdf",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-1_Заявление_за_отпускане_на_пенсия(и)_и_или_добавка(и).pdf",
-        "filename": "обр._УП-1_Заявление_за_отпускане_на_пенсия(и)_и_или_добавка(и).pdf",
-        "last_changed": "2025-06-23 10:36:46",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:36:46"
-  },
-  {
-    "title": "Обр. уп 20 удостоверение за доходи от пенсии от други държави, изплащани чрез посредничеството на националния осигурителен институт",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-20_Удостоверение_за_доходи_от_пенсии_от_други_държави,_изплащани_чрез_посредничеството_на_Националния_осигурителен_институт.doc",
-        "filename": "обр._УП-20_Удостоверение_за_доходи_от_пенсии_от_други_държави,_изплащани_чрез_посредничеството_на_Националния_осигурителен_институт.doc",
-        "last_changed": "2025-06-23 10:39:28",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:39:28"
-  },
-  {
-    "title": "Обр. уп 21 удостоверение за зачетен осигурителен стаж по оригинални удостоверения, съхранявани в пенсионното досие",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-21_Удостоверение_за_зачетен_осигурителен_стаж_по_оригинални_удостоверения,_съхранявани_в_пенсионното_досие.doc",
-        "filename": "обр._УП-21_Удостоверение_за_зачетен_осигурителен_стаж_по_оригинални_удостоверения,_съхранявани_в_пенсионното_досие.doc",
-        "last_changed": "2025-06-23 10:39:36",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:39:36"
-  },
-  {
-    "title": "Обр. уп 23. заявление за прехвърляне на натрупаните суми по индивидуалната партида в професионален пенсионен фонд във фонд “пенсии” на държавното обществено осигуряване",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-23._Заявление_за_прехвърляне_на_натрупаните_суми_по_индивидуалната_партида_в_професионален_пенсионен_фонд_във_фонд_“Пенсии”_на_държавното_обществено_осигуряване.doc",
-        "filename": "обр._УП-23._Заявление_за_прехвърляне_на_натрупаните_суми_по_индивидуалната_партида_в_професионален_пенсионен_фонд_във_фонд_“Пенсии”_на_държавното_обществено_осигуряване.doc",
-        "last_changed": "2025-06-23 10:39:55",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:39:55"
-  },
-  {
-    "title": "Обр. уп 24. удостоверение по чл. 168, ал. 4 от ксо за зачетения категориен осигурителен стаж след 01.01.2000 г. (използва се само от пок)",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-24._Удостоверение_по_чл._168,_ал._4_от_КСО_за_зачетения_категориен_осигурителен_стаж_след_01.01.2000_г._(използва_се_само_от_ПОК).doc",
-        "filename": "обр._УП-24._Удостоверение_по_чл._168,_ал._4_от_КСО_за_зачетения_категориен_осигурителен_стаж_след_01.01.2000_г._(използва_се_само_от_ПОК).doc",
-        "last_changed": "2025-06-23 10:40:03",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:40:03"
-  },
-  {
-    "title": "Обр. уп 28 заявление за ежегодно преизчисляване на пенсия за трудова дейност по чл. 102, ал. 1, т. 2 от ксо",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-28_Заявление_за_ежегодно_преизчисляване_на_пенсия_за_трудова_дейност_по_чл._102,_ал._1,_т._2_от_КСО.doc",
-        "filename": "обр._УП-28_Заявление_за_ежегодно_преизчисляване_на_пенсия_за_трудова_дейност_по_чл._102,_ал._1,_т._2_от_КСО.doc",
-        "last_changed": "2025-06-23 10:40:10",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:40:10"
-  },
-  {
-    "title": "Обр. уп 2 удостоверение за осигурителен доход",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-2_Удостоверение_за_осигурителен_доход.doc",
-        "filename": "обр._УП-2_Удостоверение_за_осигурителен_доход.doc",
-        "last_changed": "2025-06-23 10:36:54",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:36:54"
-  },
-  {
-    "title": "Обр. уп 3 удостоверение за осигурителен (трудов) стаж",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-3_Удостоверение_за_осигурителен_(трудов)_стаж.doc",
-        "filename": "обр._УП-3_Удостоверение_за_осигурителен_(трудов)_стаж.doc",
-        "last_changed": "2025-06-23 10:37:03",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:37:03"
-  },
-  {
-    "title": "Обр. уп 4 декларация за семейно положение и за годишния доход на член от семейството",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-4_Декларация_за_семейно_положение_и_за_годишния_доход_на_член_от_семейството.doc",
-        "filename": "обр._УП-4_Декларация_за_семейно_положение_и_за_годишния_доход_на_член_от_семейството.doc",
-        "last_changed": "2025-06-23 10:37:16",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:37:16"
-  },
-  {
-    "title": "Обр. уп 5 декларация за семейни обстоятелства",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-5_Декларация_за_семейни_обстоятелства.doc",
-        "filename": "обр._УП-5_Декларация_за_семейни_обстоятелства.doc",
-        "last_changed": "2025-06-23 10:37:30",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:37:30"
-  },
-  {
-    "title": "Обр. уп 6 удостоверение за направена и удръжка и от пенсия и и добавка и",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-6_Удостоверение_за_направена_и_удръжка_и_от_пенсия_и_и_добавка_и.doc",
-        "filename": "обр._УП-6_Удостоверение_за_направена_и_удръжка_и_от_пенсия_и_и_добавка_и.doc",
-        "last_changed": "2025-06-23 10:37:45",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:37:45"
-  },
-  {
-    "title": "Обр. уп 7 удостоверение за месечен размер на получаваната сума от пенсия и и добавка и",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-7_Удостоверение_за_месечен_размер_на_получаваната_сума_от_пенсия_и_и_добавка_и.doc",
-        "filename": "обр._УП-7_Удостоверение_за_месечен_размер_на_получаваната_сума_от_пенсия_и_и_добавка_и.doc",
-        "last_changed": "2025-06-23 10:37:57",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:37:57"
-  },
-  {
-    "title": "Обр. уп 7а удостоверение за обстоятелството, че лицето не е пенсионер",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-7А_Удостоверение_за_обстоятелството,_че_лицето_не_е_пенсионер.doc",
-        "filename": "обр._УП-7А_Удостоверение_за_обстоятелството,_че_лицето_не_е_пенсионер.doc",
-        "last_changed": "2025-06-23 10:38:07",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:38:07"
-  },
-  {
-    "title": "Обр. уп 7б удостоверение за обстоятелството, че лицето е пенсионер",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-7Б_Удостоверение_за_обстоятелството,_че_лицето_е_пенсионер.doc",
-        "filename": "обр._УП-7Б_Удостоверение_за_обстоятелството,_че_лицето_е_пенсионер.doc",
-        "last_changed": "2025-06-23 10:38:16",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:38:16"
-  },
-  {
-    "title": "Обр. уп 8 удостоверение за получен доход от пенсия и и добавка и",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-8_Удостоверение_за_получен_доход_от_пенсия_и_и_добавка_и.doc",
-        "filename": "обр._УП-8_Удостоверение_за_получен_доход_от_пенсия_и_и_добавка_и.doc",
-        "last_changed": "2025-06-23 10:38:26",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:38:26"
-  },
-  {
-    "title": "Обр. уп 8а удостоверение за промяна в размера на пенсията ите",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти/обр._УП-8А_Удостоверение_за_промяна_в_размера_на_пенсията_ите.doc",
-        "filename": "обр._УП-8А_Удостоверение_за_промяна_в_размера_на_пенсията_ите.doc",
-        "last_changed": "2025-06-23 10:38:32",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти"
-      }
-    ],
-    "organization name": "НОИ",
-    "folder": "Формуляри_и_образци_за_пенсии_по_българското_законодателство_и_по_регламенти",
-    "last_changed": "2025-06-23 10:38:32"
-  },
-  {
-    "title": "Служебна бележка от работодателя",
-    "files": [
-      {
-        "filetype": "doc",
-        "path": "НОИ/Формуляри_и_образци_за_профилактика_и_рехабилитация/Служебна_бележка_от_работодателя.doc",
-        "filename": "Служебна_бележка_от_работодателя.doc",
-        "last_changed": "2025-06-23 10:44:17",
-        "organization name": "НОИ",
-        "folder": "Формуляри_и_образци_за_профилактика_и_рехабилитация"
-      }
-    ],
-    "organization name": "НОИ",
     "folder": "Формуляри_и_образци_за_профилактика_и_рехабилитация",
     "last_changed": "2025-06-23 10:44:17"
   }
