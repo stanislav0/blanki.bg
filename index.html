@@ -2,7 +2,7 @@
 <html lang="bg">
 <head>
     <meta charset="utf-8">
-    <meta name="generation-date" content="2025-07-16 14:30:46">
+    <meta name="generation-date" content="2025-07-23 14:09:25">
     <title>бланки.бг</title>
     <style>
         body {
@@ -391,7 +391,7 @@
         </div>
     </div>
     <script>
-    const jsonFile = "blanki_index.json";
+    const jsonFile = "file_index.json";
     let files = [];
     let lastSearches = [];
     let lastDownloads = [];
@@ -524,7 +524,8 @@
     }
 
     function humanizeFilename(name) {
-        let base = name.replace(/\.[^.]+$/, "");
+        // let base = name.replace(/\.[^.]+$/, ""); // Removes extension, but title is already withotu extension
+        let base = name;
         base = base.replace(/[_-]+/g, " ");
         base = base.replace(/\s+/g, " ").trim();
         return base.charAt(0).toUpperCase() + base.slice(1);
@@ -541,26 +542,19 @@
         }
         if (countDiv) countDiv.textContent = `${list.length} резултата`;
         for (const entry of list) {
-    if (!entry.files || entry.files.length === 0) continue;
-    // Show all filetype badges
-    let filetypeBadges = entry.files.map(f =>
-        `<a class="g-filetype-badge" href="${encodeURI(f.path)}" download="${f.filename}" title="${f.filetype.toUpperCase()}">${f.filetype.toUpperCase()}
-        </a>`
-    ).join("");
-    let firstFile = entry.files[0];
-    let org = entry["organization name"] || "";
-    let folder = entry.folder || "";
-    let orgFolder = org + (org && folder ? " / " : "") + folder;
-    let title = humanizeFilename(entry.title);
+            if (!entry.files || entry.files.length === 0) continue;
+            let filetypeBadges = entry.files.map(f =>
+                `<a class="g-filetype-badge" href="${encodeURI(f.path)}" download="${f.filename}" title="${f.filetype.toUpperCase()}">${f.filetype.toUpperCase()}</a>`
+            ).join("");
+            let org = entry["organization name"] || "";
+            let folder = entry.folder || "";
+            let title = humanizeFilename(entry.title);
 
-    // Check for НОИ or Национален Осигурителен Институт
-    let orgLogo = ""; // <-- Remove logo usage
-
-    ul.innerHTML += `
+            ul.innerHTML += `
 <li>
     <div class="g-result-snippet" style="margin-bottom:2px;">
         <span class="g-org-folder">
-            ${orgFolder}
+            <span style="color:#4285F4;">${org}</span> <br> <span style='color:#34A853;'>${folder}</span>
         </span>
     </div>
     <div class="g-result-title" style="
@@ -574,11 +568,11 @@
         letter-spacing: 0.01em;
         text-decoration: none;
     ">
-        ${title}
+        ${title} <span class="g-result-badges" style="margin-left:10px;">${filetypeBadges}</span>
     </div>
-    <div class="g-result-badges" style="margin-top:10px;">${filetypeBadges}</div>
-</li>`;
-    }
+    <!-- <div style='margin:2px 0 6px 0;'><span style='color:#34A853;'>${folder}</span></div> -->
+</li>`
+        }
         // Add download tracking for all filetype badges and main title
         ul.querySelectorAll("a.g-filetype-badge, a.g-result-title").forEach(a => {
             a.addEventListener("click", function(e) {
