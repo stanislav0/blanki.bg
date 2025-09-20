@@ -2,7 +2,7 @@
 <html lang="bg">
 <head>
     <meta charset="utf-8">
-    <meta name="generation-date" content="2025-07-24 10:33:01">
+    <meta name="generation-date" content="2025-08-19 14:17:08">
     <title>бланки.бг</title>
     <style>
         body {
@@ -560,9 +560,13 @@
 </li>`;
             for (const entry of orgGroups[org]) {
                 if (!entry.files || entry.files.length === 0) continue;
-                let filetypeBadges = entry.files.map(f =>
-                    `<a class="g-filetype-badge" href="${encodeURI(f.path)}" download="${f.filename}" title="${f.filetype.toUpperCase()}">${f.filetype.toUpperCase()}</a>`
-                ).join("");
+                let filetypeBadges = entry.files.map(f => {
+                    if (f.filetype == "html") {
+                        return `<a class="g-filetype-badge" href="${encodeURI(f.path)}" target="_blank" title="${f.filetype.toUpperCase()}">${f.filetype.toUpperCase()}</a>`;
+                    } else {
+                        return `<a class="g-filetype-badge" href="${encodeURI(f.path)}" download="${f.filename}" title="${f.filetype.toUpperCase()}">${f.filetype.toUpperCase()}</a>`;
+                    }
+                }).join("");
                 let folder = entry.folder || "";
                 let title = humanizeFilename(entry.title);
 
