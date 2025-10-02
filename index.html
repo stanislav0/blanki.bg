@@ -2,7 +2,7 @@
 <html lang="bg">
 <head>
     <meta charset="utf-8">
-    <meta name="generation-date" content="2025-08-19 14:17:08">
+    <meta name="generation-date" content="2025-10-02 14:32:09">
     <title>бланки.бг</title>
     <style>
         body {
@@ -634,11 +634,13 @@
                 let fields = [
                     entry.title || "",
                     entry.folder || "",
+                    entry["original folder"] || "",
                     entry["organization name"] || "",
                     ...(Array.isArray(entry.files) ? entry.files.flatMap(f => [
                         f.filename || "",
                         f.filetype || "",
-                        f.path || ""
+                        f.path || "",
+                        f["original folder"] || ""
                     ]) : [])
                 ].join(" ").toLowerCase();
                 // All words must be present
@@ -691,11 +693,13 @@
             let results = files.filter(entry =>
                 (entry.title && entry.title.toLowerCase().includes(q)) ||
                 (entry.folder && entry.folder.toLowerCase().includes(q)) ||
+                (entry["original folder"] && entry["original folder"].toLowerCase().includes(q)) ||
                 (entry["organization name"] && entry["organization name"].toLowerCase().includes(q)) ||
                 (Array.isArray(entry.files) && entry.files.some(f =>
                     (f.filename && f.filename.toLowerCase().includes(q)) ||
                     (f.filetype && f.filetype.toLowerCase().includes(q)) ||
-                    (f.path && f.path.toLowerCase().includes(q))
+                    (f.path && f.path.toLowerCase().includes(q)) ||
+                    (f["original folder"] && f["original folder"].toLowerCase().includes(q))
                 ))
             );
             if (results.length === 1 && results[0].files && results[0].files.length > 0) {
@@ -720,11 +724,13 @@ document.getElementById("search-results-btn").addEventListener("click", function
     let results = files.filter(entry =>
         (entry.title && entry.title.toLowerCase().includes(q)) ||
         (entry.folder && entry.folder.toLowerCase().includes(q)) ||
+        (entry["original folder"] && entry["original folder"].toLowerCase().includes(q)) ||
         (entry["organization name"] && entry["organization name"].toLowerCase().includes(q)) ||
         (Array.isArray(entry.files) && entry.files.some(f =>
             (f.filename && f.filename.toLowerCase().includes(q)) ||
             (f.filetype && f.filetype.toLowerCase().includes(q)) ||
-            (f.path && f.path.toLowerCase().includes(q))
+            (f.path && f.path.toLowerCase().includes(q)) ||
+            (f["original folder"] && f["original folder"].toLowerCase().includes(q))
         ))
     );
     if (results.length === 1 && results[0].files && results[0].files.length > 0) {
